@@ -1,0 +1,46 @@
+
+
+nav.main_menu>ul>li>a{
+  padding: 0 5px;
+}
+header nav.main_menu ul li a span:not(.plus) {
+  padding: 12px 17px;
+}
+header nav.main_menu ul li:hover a span:not(.plus),
+header nav.main_menu ul li.active a span:not(.plus) 
+ {
+  background-color: rgba(243, 243, 241, 1);
+}
+.testimonials .testimonial_text_inner p.testimonial_author {
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.footer_top.footer_top_full {
+  padding-right: 3%;
+padding-left: 3%;
+}
+.q_social_icon_holder .fa-stack {
+  border-radius: 0;
+}
+.header_bottom_widget .q_social_icon_holder .fa-stack ,
+.footer_top  .q_social_icon_holder .fa-stack
+{
+  height: 41px;
+  line-height: 41px;
+  width: 41px;
+}
+.full_width .projects_holder_outer.v4 .hover_text{
+width:100%;
+}
+.footer_top.footer_top_full {
+  border-top: 6px solid #E5E5E5;
+}
+.footer_bottom_holder{
+  border-top: 6px solid #D9AC86;
+}
+
+.product .q_accordion_holder h3, .q_accordion_holder h3 a {
+letter-spacing: 0;
+line-height: 23px;
+}

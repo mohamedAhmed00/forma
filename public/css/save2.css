@@ -1,0 +1,847 @@
+.elfinder-tree .elfinder-navbar-root .elfinder-navbar-icon {
+    background-position: 0 -16px !important;
+}
+.athlete {
+    width: 45%;
+    float: left;
+    margin: 0 0 30px 5%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.athlete .ahlete_a {
+    width: 50%;
+    float: left;
+}
+
+.athlete .ahlete_a h1 {
+    margin-bottom: 80px;
+    font-family: 'Bookman Old';
+    color: #FFF;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.athlete .ahlete_a a {
+    font-family: 'Adobe Gothic Std';
+    font-size: 18px;
+    color: #f7df01;
+    margin-left: 20px
+}
+
+.athlete .ahlete_a .img-athelet {
+    width: 13px;
+    height: 17px
+}
+
+.item h4 {
+
+    color: #000
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2a3644;
+}
+
+section {
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+}
+
+section > button {
+    background: #20b9a4;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 16.996px;
+    line-height: 20px;
+    padding: 12px 18px 13px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section > button:hover {
+    opacity: 0.8;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.login {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: #FFF;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    outline: 10px solid rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    overflow: auto;
+}
+
+.login > h1 {
+    padding: 30px 30px 10px 30px;
+    color: #2a3644;
+    font-size: 100%;
+}
+
+.login > p {
+    padding-left: 30px;
+    font-size: 100%;
+    color: #777;
+}
+
+.login > span {
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: #cccccc;
+    color: #ffffff;
+    padding: 3px 0px 0px 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.login input {
+    width: 70%;
+    border: solid 2px #ccc;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: none;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.login h1 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #000
+}
+
+.login input[type='submit'] {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.login input[type='checkbox'] {
+    width: 30px;
+}
+
+form {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+form a {
+    margin-top: 30px;
+    display: block;
+    color: #000;
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.request {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: #FFF;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    outline: 10px solid rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    overflow: auto;
+}
+
+.request > h1 {
+    padding: 30px 30px 10px 30px;
+    color: #2a3644;
+    font-size: 100%;
+}
+
+.request > p {
+    padding-left: 30px;
+    font-size: 100%;
+    color: #777;
+}
+
+.request > span {
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: #cccccc;
+    color: #ffffff;
+    padding: 3px 0px 0px 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.request input {
+    width: 70%;
+    border: solid 2px #ccc;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: none;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.request h1 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #000
+}
+
+.request input[type='submit'] {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.request input[type='checkbox'] {
+    width: 30px;
+}
+
+
+
+@media (max-width: 420px) {
+    #home nav img
+    {
+        width: 146px !important;
+        height: 137px !important;
+    }
+
+    #slider3 .right {
+        right: 0px;
+    }
+
+    #slider3 .left {
+        left: 0px;
+    }
+
+    .athlete_box {
+        min-height: 200px;
+        margin-bottom: 30px
+    }
+
+    .athlete_box a {
+        font-family: 'Adobe Gothic Std';
+        font-size: 15px;
+        color: #FFF;
+        position: absolute;
+        bottom: 95px;
+        left: 18px;
+
+    }
+
+    .carousel-inner h2 {
+        margin-top: 20px;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        font-family: 'Adobe Gothic Std';
+    }
+
+    .carousel-inner p {
+        font-size: 10px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 15px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-family: 'Adobe Gothic Std';
+    }
+
+    .img_ath {
+        width: 100px;
+        height: 150px;
+        position: absolute;
+        top: 12px;
+        right: 90px;
+        opacity: .05;
+        z-index: 999999;
+    }
+
+    #slider2 img {
+        margin-left: 25%;
+        height: 250px;
+        width: 50%;
+        margin-top: 30px;
+    }
+    #slider2 .item h2
+    {
+        font-size:24px ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #slider2 .carousel-inner button
+    {
+        width:40%;
+        margin-left:30%;
+        font-size:18px
+    }
+    #slider2 .control-carousel,#slider3 .control-carousel
+    {
+        font-size: 36px;
+    }
+    .control-carousel i
+    {
+        font-size: 20px !important;
+    }
+    .control-carousel.left
+    {
+        left:20px !important;
+    }
+    .control-carousel.right
+    {
+        right: 20px !important;
+    }
+    .item img {
+        width: 94px;
+        height: 166px;
+    }
+
+    .athlete_img {
+        padding-top: 45px;
+    }
+    .get
+    {
+        margin-bottom: 20px;
+
+    }
+    #slider2 .carousel-indicators
+    {
+        left: 40%;
+        width: 80%;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 767px) {
+    #home nav img
+    {
+        width: 146px !important;
+        height: 137px !important;
+    }
+    .ath a {
+        font-family: 'Adobe Gothic Std';
+        font-size: 15px;
+        color: #FFF;
+        position: absolute;
+        bottom: 68px;
+        left: 30px;
+    }
+
+    #slider3 .right {
+        right: 0px;
+    }
+
+    #slider3 .left {
+        left: 0px;
+    }
+
+    .slider .callbacks_tabs {
+        display: none;
+    }
+
+    .athlete_box {
+        min-height: 250px;
+        margin-bottom: 30px
+    }
+
+    .carousel-inner h2 {
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        color: #FFF;
+    }
+
+    .carousel-inner p {
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFF
+    }
+
+    .img_ath {
+        width: 120px;
+        height: 250px;
+        position: absolute;
+        top: 12px;
+        right: 70px;
+        opacity: .05;
+        z-index: 999999;
+    }
+
+    #slider2 img {
+        height: 300px;
+        width: 200px;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    .carousel-inner h2
+    {
+        margin-bottom: 20px;
+    }
+    .carousel-inner p
+    {
+        margin-bottom: 40px;
+    }
+    #slider2 .control-carousel,#slider3 .control-carousel
+    {
+        font-size: 50px;
+    }
+    .control-carousel i
+    {
+        font-size: 50px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .control-carousel  i
+    {
+        font-size: 50px !important;
+    }
+    #slider3 .right {
+        right: -10px;
+    }
+
+    #slider3 .left {
+        left: -10px;
+    }
+    .carousel-inner p {
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFF;
+    }
+    .carousel-inner h2 {
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        color: #FFF;
+    }
+    .ath a {
+        font-family: 'Adobe Gothic Std';
+        font-size: 15px;
+        color: #FFF;
+        position: absolute;
+        bottom: 0;
+        left: 82px;
+    }
+
+    .athlete_box {
+        min-height: 355px;
+        margin-bottom: 30px
+    }
+
+    .athlete_img {
+        padding-top: 0px;
+    }
+
+    .carousel-inner h2 {
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+    }
+
+    .carousel-inner p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .img_ath {
+        width: 150px;
+        height: 250px;
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        opacity: .05;
+        z-index: 999999;
+    }
+
+    #slider2 img {
+        height: 300px;
+        width: 200px;
+        margin-top: 40px;
+        margin-left:100px;
+    }
+    .carousel-inner h2
+    {
+        margin-bottom: 20px;
+    }
+    .carousel-inner p
+    {
+        margin-bottom: 40px;
+    }
+    #slider2 .control-carousel,#slider3 .control-carousel
+    {
+        font-size: 50px;
+    }
+    .control-carousel i
+    {
+        font-size: 50px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #slider3 .right {
+        right: -10px;
+    }
+
+    #slider3 .left {
+        left: -10px;
+    }
+
+    .athlete_box {
+        min-height: 355px;
+        margin-bottom: 30px
+    }
+
+    .ath a {
+        font-family: 'Adobe Gothic Std';
+        font-size: 15px;
+        color: #FFF;
+        position: absolute;
+        bottom: 0;
+        left: 82px;
+    }
+
+    .carousel-inner h2 {
+        margin-top: 80px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #FFF;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+    }
+
+    .carousel-inner p {
+        font-size: 10px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 15px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-family: 'Adobe Gothic Std';
+    }
+
+    .img_ath {
+        width: 150px;
+        height: 250px;
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        opacity: .05;
+        z-index: 999999;
+    }
+
+    #slider2 img {
+        height: 300px;
+        width: 200px;
+        margin-top: 40px;
+        margin-left:100px;
+    }
+    .carousel-inner h2
+    {
+        margin-bottom: 20px;
+    }
+    .carousel-inner p
+    {
+        margin-bottom: 40px;
+    }
+    #slider2 .control-carousel,#slider3 .control-carousel
+    {
+        font-size: 50px;
+    }
+    .control-carousel i
+    {
+        font-size: 50px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #slider3 .right {
+        right: -10px;
+    }
+
+    #slider3 .left {
+        left: -10px;
+    }
+
+    .athlete_box {
+        min-height: 355px;
+        margin-bottom: 30px
+    }
+
+    .ath a {
+        font-family: 'Adobe Gothic Std';
+        font-size: 15px;
+        color: #FFF;
+        position: absolute;
+        bottom: 0;
+        left: 82px;
+    }
+
+    .carousel-inner h2 {
+        margin-top: 80px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        color: #FFF;
+
+    }
+
+    .carousel-inner p {
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-family: 'Adobe Gothic Std';
+    }
+
+    .img_ath {
+        width: 150px;
+        height: 250px;
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        opacity: .05;
+        z-index: 999999;
+    }
+
+    #slider2 img {
+        height: 300px;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .carousel-inner h2
+    {
+        margin-bottom: 20px;
+    }
+    .carousel-inner p
+    {
+        margin-bottom: 40px;
+    }
+    #slider2 .control-carousel,#slider3 .control-carousel
+    {
+        font-size: 50px;
+    }
+    .control-carousel i
+    {
+        font-size: 50px !important;
+    }
+}
+
+#callbacks3_s0 {
+    background: none;
+    margin-top: 80px
+}
+
+.carousel-inner button {
+    background: #FE980F;
+    border: 0 none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 23px;
+    padding: 5px 28px;
+}
+
+.ath h1 {
+    margin-bottom: 120px;
+    font-family: 'Bookman Old';
+    color: #FFF;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+.ath .img-athelet {
+    width: 13px;
+    height: 17px;
+}
+
+.img-athelet img {
+    width: 75%;
+    margin-top: 28px;
+}
+.product-image-wrapper img {
+    width: 100%;
+    height: 200px;
+}
+
+.product-image-wrapper span {
+    padding: 10px 20px;
+    float: right;
+}
+
+.product-image-wrapper a {
+    float: left;
+    padding: 10px 20px;
+    color:#000;
+}
+
+.product-image-wrapper a:hover {
+    color: #fe980f;
+}
+
+.get {
+    background: #FE980F;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 23px;
+}
+.join-forma-btn
+{
+    width:80%;
+    margin-left: 10%;
+    display: block;
+    background:#FE980F;
+    color:#000;
+    border:solid 2px #000;
+    padding:10px 20px;
+    font-size:18px
+}
+.join-forma-btn:hover
+{
+    background:#000;
+    color:#FE980F;
+    border:solid 2px #FFF;
+}
+.join-forma-group
+{
+    width:50% !important;
+}
+.b-bottom{
+    margin-bottom: 0;
+}
+.top-news h1
+{
+    margin : 30px 20px;
+    color:#000;
+    font-size:30px;
+    font-weight: bold;
+}
+.general-text iframe
+{
+    width:80%;
+    height: 250px;
+    margin-left:10%;
+}
+.control-carousel,.recommended-item-control
+{
+    position: absolute;
+    top: 35%;
+}
+
+.control-carousel.left
+{
+    left:-10px;
+}
+.control-carousel.right
+{
+    right: -10px;
+}
+
+.recommended-item-control i
+{
+    font-size:35px;
+    color:#feb400;
+}
+.get {
+    background: #FE980F;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 23px;
+}
+.join-forma-btn
+{
+    width:80%;
+    margin-left: 10%;
+    display: block;
+    background:#e37704;
+    color:#000;
+    border:solid 2px #000;
+    padding:10px 20px;
+    font-size:18px;
+    text-align: center;
+}
+.join-forma-btn:hover
+{
+    background:#000;
+    color:#FE980F;
+    border:solid 2px #FFF;
+}
