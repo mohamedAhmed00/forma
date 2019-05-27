@@ -2,10 +2,10 @@
  * Inline Form Validation Engine 2.6.2, jQuery plugin
  *
  * Copyright(c) 2010, Cedric Dugas
- * http://www.position-absolute.com
+ * https://www.position-absolute.com
  *
  * 2.0 Rewrite by Olivier Refalo
- * http://www.crionics.com
+ * https://www.crionics.com
  *
  * Form validation engine allowing custom regex rules to be added.
  * Licensed under the MIT License
@@ -1893,7 +1893,7 @@
 					  },
 		/**
 		 * Escape special character for jQuery selector
-		 * http://totaldev.com/content/escaping-characters-get-valid-jquery-id
+		 * https://totaldev.com/content/escaping-characters-get-valid-jquery-id
 		 * @param {String} selector
 		 */
 		 _jqSelector: function(str){
@@ -1992,7 +1992,7 @@
 		ajaxFormValidation: false,
 		// The url to send the submit ajax validation (default to action)
 		ajaxFormValidationURL: false,
-		// HTTP method used for ajax validation
+		// https method used for ajax validation
 		ajaxFormValidationMethod: 'get',
 		// Ajax form validation callback method: boolean onComplete(form, status, errors, options)
 		// retuns false if the form.submit event needs to be canceled.

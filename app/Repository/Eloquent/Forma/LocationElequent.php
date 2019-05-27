@@ -11,14 +11,21 @@ namespace App\Repository\Eloquent\Forma;
 use App\Model\Forma\Location;
 use App\Repository\Interfaces\Forma\LocationInterface;
 
-class LocationElequent implements LocationInterface
+class LocationElequent extends BaseElequent implements LocationInterface
 {
-    /*
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getAllLocations()
+
+    /**
+     * @var
+     */
+    protected $location;
+
+    /**
+     * LocationElequent constructor.
+     * @author Nader Ahmed
+     */
+    public function __construct()
     {
-        return Location::get();
+        $this->location = new Location();
+        parent::__construct($this->location);
     }
 }

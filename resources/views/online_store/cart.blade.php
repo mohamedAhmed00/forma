@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="cmsmasters_html">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
+<meta https-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -12,13 +12,13 @@
     <script src="{{ asset('latest_news/js/jquery.min.js') }}"></script>
     @include('online_store/template/head')
     <link rel="icon" type="image/png"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="16x16">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="16x16">
     <link rel="icon" type="image/png"
           href="{{asset('Forma'.$setting->favicon)}}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="72x72"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <style>
         @media only screen and (min-width: 767px) {
             .headline_aligner,
@@ -36,7 +36,7 @@
 
 <div class="cmsmasters_header_search_form">
     <span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span>	<div class="yith-ajaxsearchform-container cmsmasters_ajax_search_premium">
-        <form method="get" id="yith-ajaxsearchform" action="http://sports-store.cmsmasters.net/">
+        <form method="get" id="yith-ajaxsearchform" action="https://sports-store.cmsmasters.net/">
             <div class="yith-ajaxsearchform-container">
                 <div class="yith-ajaxsearchform-select">
                     <input type="hidden" name="post_type" class="yit_wcas_post_type" id="yit_wcas_post_type" value="product" />
@@ -52,7 +52,7 @@
                                class="yith-s empty"
                                placeholder="Search for products"
                                data-append-to=".search-navigation"
-                               data-loader-icon="http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
+                               data-loader-icon="https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
                                data-min-chars="3" />
 
                     </div>
@@ -119,7 +119,7 @@
 
                                                                     <td class="product-thumbnail">
                                                                         <a href="{{ url('product/'.$cart->id) }}">
-                                                                            <img width="540" height="540" src="http://storeback.forma-eg.com/images/product/{{ $cart->options->image }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" />
+                                                                            <img width="540" height="540" src="https://storeback.forma-eg.com/images/product/{{ $cart->options->image }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" />
                                                                         </a>                                                                    </td>
 
                                                                     <td class="product-name" data-title="Product">
@@ -153,7 +153,7 @@
                                                                     <button type="submit" class="button" name="update_cart" value="Update cart">Update cart</button>
 
 
-                                                                    <input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="1a825d3dc1" /><input type="hidden" name="_wp_http_referer" value="/cart/" />				</td>
+                                                                    <input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="1a825d3dc1" /><input type="hidden" name="_wp_https_referer" value="/cart/" />				</td>
                                                             </tr>
 
                                                             </tbody>
@@ -212,27 +212,27 @@
                 <div class="bottom_outer">
                     <div class="bottom_inner sidebar_layout_14141414">
                         <aside id="text-3" class="widget widget_text"><h3 class="widgettitle">Help</h3>			<div class="textwidget"><ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/how-to-make-an-order/">How to Make an Order?</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/delivery-terms/">Delivery Terms</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/my-account/">My Orders</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/return/">Returns</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/terms-and-conditions/">Terms and Conditions</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/how-to-make-an-order/">How to Make an Order?</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/delivery-terms/">Delivery Terms</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/my-account/">My Orders</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/return/">Returns</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/terms-and-conditions/">Terms and Conditions</a></li>
                                 </ul>
                             </div>
                         </aside><aside id="text-5" class="widget widget_text"><h3 class="widgettitle">Customer Service</h3>			<div class="textwidget"><ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/product/different-tools-for-fitness/">Product Simple</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/product/classic-sports-bra/">Product Extended</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/cart/">Your Cart</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/wishlist/">Wishlist</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/shop/">Shop</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/product/different-tools-for-fitness/">Product Simple</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/product/classic-sports-bra/">Product Extended</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/cart/">Your Cart</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/wishlist/">Wishlist</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/shop/">Shop</a></li>
                                 </ul>
                             </div>
                         </aside><aside id="text-4" class="widget widget_text"><h3 class="widgettitle">Sport Store</h3>			<div class="textwidget"><ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/new-collection/">New Collection </a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/women/">Women</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/men/">Men</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/blog/">Our Blog</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/contacts/">Contacts</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/new-collection/">New Collection </a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/women/">Women</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/men/">Men</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/blog/">Our Blog</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/contacts/">Contacts</a></li>
                                 </ul>
                             </div>
                         </aside><aside id="text-6" class="widget widget_text"><h3 class="widgettitle">Quick Links</h3>			<div class="textwidget"><ul class="styled_list">
@@ -266,107 +266,107 @@
 <!--  Finish Page  -->
 
 
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/cmsmasters-mega-menu/js/jquery.megaMenu.js?ver=1.2.7'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/cmsmasters-mega-menu/js/jquery.megaMenu.js?ver=1.2.7'></script>
 
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
 
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.9.1'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.9.1'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/sports-store.cmsmasters.net\/cart\/","is_cart":"1","cart_redirect_after_add":"no"};
+    var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/sports-store.cmsmasters.net\/cart\/","is_cart":"1","cart_redirect_after_add":"no"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.4.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.4.4'></script>
 
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js?ver=3.4.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js?ver=3.4.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js?ver=3.4.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-admin/js/password-strength-meter.min.js?ver=4.9.8'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=3.4.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.4.4'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/js/yith-autocomplete.min.js?ver=1.2.7'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-admin/js/password-strength-meter.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/js/yith-autocomplete.min.js?ver=1.2.7'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-includes/js/wp-util.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-includes/js/wp-util.min.js?ver=4.9.8'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=3.4.4'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=3.4.4'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var yith_wccl_general = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","cart_redirect":"","cart_url":"http:\/\/sports-store.cmsmasters.net\/cart\/","view_cart":"View Cart","tooltip":"1","tooltip_pos":"top","tooltip_ani":"fade","description":"1","add_cart":"Add to cart","grey_out":"","image_hover":"","wrapper_container_shop":"li.product"};
+    var yith_wccl_general = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","cart_redirect":"","cart_url":"https:\/\/sports-store.cmsmasters.net\/cart\/","view_cart":"View Cart","tooltip":"1","tooltip_pos":"top","tooltip_ani":"fade","description":"1","add_cart":"Add to cart","grey_out":"","image_hover":"","wrapper_container_shop":"li.product"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-color-label-variations-premium/assets/js/yith-wccl.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-color-label-variations-premium/assets/js/yith-wccl.min.js?ver=1.4.0'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","added_label":"Added","table_title":"Product Comparison","auto_open":"no","loader":"http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-compare-premium\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list_1","is_page":"1","page_url":"http:\/\/sports-store.cmsmasters.net\/yith-compare\/","im_in_page":"","view_label":"View Compare","actionfilter":"yith_woocompare_filter_by_cat","num_related":"4","autoplay_related":"","fixedcolumns":"1"};
+    var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","added_label":"Added","table_title":"Product Comparison","auto_open":"no","loader":"https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-compare-premium\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list_1","is_page":"1","page_url":"https:\/\/sports-store.cmsmasters.net\/yith-compare\/","im_in_page":"","view_label":"View Compare","actionfilter":"yith_woocompare_filter_by_cat","num_related":"4","autoplay_related":"","fixedcolumns":"1"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-compare-premium/assets/js/woocompare.min.js?ver=2.1.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-wishlist-premium/assets/js/jquery.selectBox.min.js?ver=1.2.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-compare-premium/assets/js/woocompare.min.js?ver=2.1.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-wishlist-premium/assets/js/jquery.selectBox.min.js?ver=1.2.0'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-wishlist-premium\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"yes","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
+    var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-wishlist-premium\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"yes","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-wishlist-premium/assets/js/jquery.yith-wcwl.js?ver=2.1.2'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/cmsmasters-hover-slider.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/easing.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/easy-pie-chart.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/mousewheel.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/owlcarousel.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/request-animation-frame.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/scrollspy.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/scroll-to.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/stellar.min.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/waypoints.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-wishlist-premium/assets/js/jquery.yith-wcwl.js?ver=2.1.2'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/cmsmasters-hover-slider.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/easing.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/easy-pie-chart.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/mousewheel.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/owlcarousel.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/request-animation-frame.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/scrollspy.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/scroll-to.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/stellar.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/waypoints.min.js?ver=1.0.0'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var cmsmasters_script = {"theme_url":"http:\/\/sports-store.cmsmasters.net\/wp-content\/themes\/sports-store","site_url":"http:\/\/sports-store.cmsmasters.net\/","ajaxurl":"http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php","nonce_ajax_like":"2fd11316cd","nonce_ajax_view":"3c8fe6ef2c","project_puzzle_proportion":"1","gmap_api_key":"AIzaSyDtfUlgzSb3LShTSAju_3gMO00kM_iXGxs","gmap_api_key_notice":"Please add your Google Maps API key","gmap_api_key_notice_link":"read more how","primary_color":"#fa5400","ilightbox_skin":"dark","ilightbox_path":"vertical","ilightbox_infinite":"0","ilightbox_aspect_ratio":"1","ilightbox_mobile_optimizer":"1","ilightbox_max_scale":"1","ilightbox_min_scale":"0.2","ilightbox_inner_toolbar":"0","ilightbox_smart_recognition":"0","ilightbox_fullscreen_one_slide":"0","ilightbox_fullscreen_viewport":"center","ilightbox_controls_toolbar":"1","ilightbox_controls_arrows":"0","ilightbox_controls_fullscreen":"1","ilightbox_controls_thumbnail":"1","ilightbox_controls_keyboard":"1","ilightbox_controls_mousewheel":"1","ilightbox_controls_swipe":"1","ilightbox_controls_slideshow":"0","ilightbox_close_text":"Close","ilightbox_enter_fullscreen_text":"Enter Fullscreen (Shift+Enter)","ilightbox_exit_fullscreen_text":"Exit Fullscreen (Shift+Enter)","ilightbox_slideshow_text":"Slideshow","ilightbox_next_text":"Next","ilightbox_previous_text":"Previous","ilightbox_load_image_error":"An error occurred when trying to load photo.","ilightbox_load_contents_error":"An error occurred when trying to load contents.","ilightbox_missing_plugin_error":"The content your are attempting to view requires the <a href='{pluginspage}' target='_blank'>{type} plugin<\\\/a>."};
+    var cmsmasters_script = {"theme_url":"https:\/\/sports-store.cmsmasters.net\/wp-content\/themes\/sports-store","site_url":"https:\/\/sports-store.cmsmasters.net\/","ajaxurl":"https:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php","nonce_ajax_like":"2fd11316cd","nonce_ajax_view":"3c8fe6ef2c","project_puzzle_proportion":"1","gmap_api_key":"AIzaSyDtfUlgzSb3LShTSAju_3gMO00kM_iXGxs","gmap_api_key_notice":"Please add your Google Maps API key","gmap_api_key_notice_link":"read more how","primary_color":"#fa5400","ilightbox_skin":"dark","ilightbox_path":"vertical","ilightbox_infinite":"0","ilightbox_aspect_ratio":"1","ilightbox_mobile_optimizer":"1","ilightbox_max_scale":"1","ilightbox_min_scale":"0.2","ilightbox_inner_toolbar":"0","ilightbox_smart_recognition":"0","ilightbox_fullscreen_one_slide":"0","ilightbox_fullscreen_viewport":"center","ilightbox_controls_toolbar":"1","ilightbox_controls_arrows":"0","ilightbox_controls_fullscreen":"1","ilightbox_controls_thumbnail":"1","ilightbox_controls_keyboard":"1","ilightbox_controls_mousewheel":"1","ilightbox_controls_swipe":"1","ilightbox_controls_slideshow":"0","ilightbox_close_text":"Close","ilightbox_enter_fullscreen_text":"Enter Fullscreen (Shift+Enter)","ilightbox_exit_fullscreen_text":"Exit Fullscreen (Shift+Enter)","ilightbox_slideshow_text":"Slideshow","ilightbox_next_text":"Next","ilightbox_previous_text":"Previous","ilightbox_load_image_error":"An error occurred when trying to load photo.","ilightbox_load_contents_error":"An error occurred when trying to load contents.","ilightbox_missing_plugin_error":"The content your are attempting to view requires the <a href='{pluginspage}' target='_blank'>{type} plugin<\\\/a>."};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/jquery.script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/jquery.script.js?ver=1.0.0'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cmsmasters_theme_script = {"primary_color":"#fa5400"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/theme-framework/theme-style/js/jquery.theme-script.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/jquery.tweet.min.js?ver=1.3.1'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/smooth-sticky.min.js?ver=1.0.2'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/theme-framework/theme-style/js/jquery.theme-script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/jquery.tweet.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/js/smooth-sticky.min.js?ver=1.0.2'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cmsmasters_woo_script = {"currency_symbol":"\u00a3","thumbnail_image_width":"70","thumbnail_image_height":"70"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/woocommerce/cmsmasters-framework/theme-style/js/jquery.plugin-script.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/themes/sports-store/woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/js/jquery.plugin-script.js?ver=1.0.0'></script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/woocommerce/cmsmasters-framework/theme-style/js/jquery.plugin-script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/themes/sports-store/woocommerce/cmsmasters-framework/theme-style/yith-woocommerce-wishlist/js/jquery.plugin-script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var yith_wcas_params = {"loading":"http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-ajax-search-premium\/assets\/images\/ajax-loader.gif","show_all":"false","price_label":"Price:","show_all_text":"View all","ajax_url":"\/?wc-ajax=%%endpoint%%"};
+    var yith_wcas_params = {"loading":"https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-ajax-search-premium\/assets\/images\/ajax-loader.gif","show_all":"false","price_label":"Price:","show_all_text":"View all","ajax_url":"\/?wc-ajax=%%endpoint%%"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/js/frontend.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/js/frontend.min.js?ver=1.0'></script>
 
 <div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #fff; background-color: #000;"><div class="cookie-notice-container"><span id="cn-notice-text">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">Ok</a>
     </div>

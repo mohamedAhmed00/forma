@@ -4,7 +4,7 @@
 <head >
     <title>Forma </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Forma" />
     <link href="{{ asset('css/bootstrap.css') }}" type="text/css" rel="stylesheet" media="all">
     <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet" media="all">
@@ -13,7 +13,7 @@
     <link rel="icon" href="{{ asset('images/35x35Untitled-1.png') }}">
     <link href="//fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Custom Theme files -->
     <link href="{{ asset('css/test.css') }}" type="text/css" rel="stylesheet" media="all">
@@ -291,7 +291,7 @@
 
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="{{ asset('latest_news/js/jquery.min.js') }}"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var LS_Meta = {"v": "6.7.6"};
@@ -317,7 +317,7 @@
     <script type='text/javascript'>
         /* <![CDATA[ */
         var cnArgs = {
-            "ajaxurl": "http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
+            "ajaxurl": "https:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
             "hideEffect": "fade",
             "onScroll": "",
             "onScrollOffset": "100",

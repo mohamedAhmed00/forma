@@ -7,7 +7,7 @@
 /**
  * jQuery gMap - Google Maps API V3
  *
- * @url		http://labs.mario.ec/jquery-gmap/
+ * @url		https://labs.mario.ec/jquery-gmap/
  * @author	Mario Estrada <me@mario.ec>
  * @version	2.1.5
  * @license MIT

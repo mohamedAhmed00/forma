@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nader
- * Date: 2/5/19
- * Time: 12:19 AM
- */
 
 namespace App\Repository\Eloquent\Forma;
 
@@ -13,19 +7,25 @@ use App\Model\Forma\ActivityDetail;
 use App\Repository\Interfaces\Forma\ActivityDetailInterface;
 use Illuminate\Http\Request;
 
-class ActivityDetailElequent implements ActivityDetailInterface
+class ActivityDetailElequent extends BaseElequent implements ActivityDetailInterface
 {
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getSingleActivityDetail(int $id)
+
+    /**
+     * @var
+     */
+    protected $activityDetails;
+
+    /**
+     * ActivityElequent constructor.
+     * @author Nader Ahmed
+     */
+    public function __construct()
     {
-        return ActivityDetail::find($id);
+        $this->activityDetails = new ActivityDetail();
+        parent::__construct($this->activityDetails);
     }
 
-    /*
+    /**
      * @param Request $request
      * @return Mix
      * @auther Nader Ahmed
@@ -76,17 +76,8 @@ class ActivityDetailElequent implements ActivityDetailInterface
         return $activity;
     }
 
-    /*
-    * @param int $id
-    * @return Mix
-    * @auther Nader Ahmed
-    **/
-    public function getActivityDetailsByActivity($id)
-    {
-//        return ActivityDetail::where('id',$id)->get();
-    }
 
-    /*
+    /**
     * @return Mix
     * @auther Nader Ahmed
     **/

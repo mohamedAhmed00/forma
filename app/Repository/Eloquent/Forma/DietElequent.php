@@ -10,7 +10,7 @@ namespace App\Repository\Eloquent\Forma;
 
 use App\Http\Requests\DietRequest;
 use App\Model\RequestDiet;
-use App\Repository\Interfaces\Store\DietInterface;
+use App\Repository\Interfaces\Forma\DietInterface;
 use Illuminate\Http\Request;
 
 class DietElequent implements DietInterface

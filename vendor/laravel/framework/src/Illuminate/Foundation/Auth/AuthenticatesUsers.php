@@ -2,7 +2,6 @@
 
 namespace Illuminate\Foundation\Auth;
 
-use App\ActivityDetail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
@@ -43,14 +42,14 @@ trait AuthenticatesUsers
         }
 
         if ($this->attemptLogin($request)) {
-//            $this->redirectTo = '/checkout';
-            return redirect()->back();
-//            dd($this->sendLoginResponse($request));
+            return $this->sendLoginResponse($request);
         }
+
         // If the login attempt was unsuccessful we will increment the number of attempts
         // to login and redirect the user back to the login form. Of course, when this
         // user surpasses their maximum number of attempts they will get locked out.
         $this->incrementLoginAttempts($request);
+
         return $this->sendFailedLoginResponse($request);
     }
 
@@ -59,10 +58,12 @@ trait AuthenticatesUsers
      *
      * @param  \Illuminate\Http\Request  $request
      * @return void
+     *
+     * @throws \Illuminate\Validation\ValidationException
      */
     protected function validateLogin(Request $request)
     {
-        $this->validate($request, [
+        $request->validate([
             $this->username() => 'required|string',
             'password' => 'required|string',
         ]);
@@ -157,7 +158,18 @@ trait AuthenticatesUsers
 
         $request->session()->invalidate();
 
-        return redirect('/');
+        return $this->loggedOut($request) ?: redirect('/');
+    }
+
+    /**
+     * The user has logged out of the application.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return mixed
+     */
+    protected function loggedOut(Request $request)
+    {
+        //
     }
 
     /**

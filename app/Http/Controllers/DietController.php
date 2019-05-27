@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\DietRequest;
 use App\Repository\Interfaces\Forma\ActivityDetailInterface;
-use App\Repository\Interfaces\Store\DietInterface;
+use App\Repository\Interfaces\Forma\DietInterface;
 use Illuminate\Http\Request;
 
 class DietController extends Controller

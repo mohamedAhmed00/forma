@@ -155,11 +155,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | http Only Cookies
+    | https Only Cookies
     |--------------------------------------------------------------------------
     |
     | By setting this option to true, session cookies will only be sent back
-    | to the server if the browser has a http connection. This will keep
+    | to the server if the browser has a https connection. This will keep
     | the cookie from being sent to you if it can not be done securely.
     |
     */
@@ -168,16 +168,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | HTTP Access Only
+    | https Access Only
     |--------------------------------------------------------------------------
     |
     | Setting this value to true will prevent JavaScript from accessing the
     | value of the cookie and the cookie will only be accessible through
-    | the HTTP protocol. You are free to modify this option if needed.
+    | the https protocol. You are free to modify this option if needed.
     |
     */
 
-    'http_only' => true,
+    'https_only' => true,
 
     /*
     |--------------------------------------------------------------------------

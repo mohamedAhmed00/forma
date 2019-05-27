@@ -52,10 +52,10 @@
                             <label for="checkbox-106" class="a-bcheckbox__label">
                                 <div class="a-bcheckbox__status">
                                     <svg class="a-bcheckbox__status-on a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
                                     </svg>
                                     <svg class="a-bcheckbox__status-off a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
                                     </svg>
                                 </div>
                                 <div class="a-bcheckbox__text">I DO NOT GET ENOUGH SLEEP</div>
@@ -66,10 +66,10 @@
                             <label for="checkbox-107" class="a-bcheckbox__label">
                                 <div class="a-bcheckbox__status">
                                     <svg class="a-bcheckbox__status-on a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
                                     </svg>
                                     <svg class="a-bcheckbox__status-off a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
                                     </svg>
                                 </div>
                                 <div class="a-bcheckbox__text">I EAT LATE AT NIGHT</div>
@@ -80,10 +80,10 @@
                             <label for="checkbox-108" class="a-bcheckbox__label">
                                 <div class="a-bcheckbox__status">
                                     <svg class="a-bcheckbox__status-on a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
                                     </svg>
                                     <svg class="a-bcheckbox__status-off a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
                                     </svg>
                                 </div>
                                 <div class="a-bcheckbox__text">I CONSUME A LOT OF SALT</div>
@@ -94,10 +94,10 @@
                             <label for="checkbox-109" class="a-bcheckbox__label">
                                 <div class="a-bcheckbox__status">
                                     <svg class="a-bcheckbox__status-on a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
                                     </svg>
                                     <svg class="a-bcheckbox__status-off a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
                                     </svg>
                                 </div>
                                 <div class="a-bcheckbox__text">I CANNOT GIVE UP EATING SWEETS</div>
@@ -108,10 +108,10 @@
                             <label for="checkbox-110" class="a-bcheckbox__label">
                                 <div class="a-bcheckbox__status">
                                     <svg class="a-bcheckbox__status-on a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
                                     </svg>
                                     <svg class="a-bcheckbox__status-off a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
                                     </svg>
                                 </div>
                                 <div class="a-bcheckbox__text">I LOVE SOFT DRINKS</div>
@@ -122,10 +122,10 @@
                             <label for="checkbox-6" class="a-bcheckbox__label">
                                 <div class="a-bcheckbox__status">
                                     <svg class="a-bcheckbox__status-on a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-check"></use>
                                     </svg>
                                     <svg class="a-bcheckbox__status-off a-icon">
-                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
+                                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="/diet/img/sprite.svg#icon-close-button"></use>
                                     </svg>
                                 </div>
                                 <div class="a-bcheckbox__text">None of the above</div>

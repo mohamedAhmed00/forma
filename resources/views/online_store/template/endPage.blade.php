@@ -7,7 +7,7 @@
     /* <![CDATA[ */
     var wpcf7 = {
         "apiSettings": {
-            "root": "http:\/\/sports-store.cmsmasters.net\/wp-json\/contact-form-7\/v1",
+            "root": "https:\/\/sports-store.cmsmasters.net\/wp-json\/contact-form-7\/v1",
             "namespace": "contact-form-7\/v1"
         }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}
     };
@@ -35,14 +35,14 @@
     };
     /* ]]> */
 </script>
-<script type='text/javascript' src='{{ asset('online_store/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.mincd45.js?ver=3.4.3') }}'></script>
+{{--<script type='text/javascript' src='{{ asset('online_store/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.mincd45.js?ver=3.4.3') }}'></script>--}}
 <script type='text/javascript' src='{{ asset('online_store/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/js/yith-autocomplete.min4281.js?ver=1.2.7') }}'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var _wpUtilSettings = {"ajax": {"url": "\/wp-admin\/admin-ajax.php"}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='{{ asset('online_store/wp-includes/js/wp-util.min37cb.js?ver=4.9.7') }}'></script>
+{{--<script type='text/javascript' src='{{ asset('online_store/wp-includes/js/wp-util.min37cb.js?ver=4.9.7') }}'></script>--}}
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wc_add_to_cart_variation_params = {
@@ -59,7 +59,7 @@
     var yith_wccl_general = {
         "ajaxurl": "\/?wc-ajax=%%endpoint%%",
         "cart_redirect": "",
-        "cart_url": "http:\/\/sports-store.cmsmasters.net\/cart\/",
+        "cart_url": "https:\/\/sports-store.cmsmasters.net\/cart\/",
         "view_cart": "View Cart",
         "tooltip": "1",
         "tooltip_pos": "top",
@@ -84,11 +84,11 @@
         "added_label": "Added",
         "table_title": "Product Comparison",
         "auto_open": "no",
-        "loader": "http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-compare-premium\/assets\/images\/loader.gif",
+        "loader": "https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-compare-premium\/assets\/images\/loader.gif",
         "button_text": "Compare",
         "cookie_name": "yith_woocompare_list_1",
         "is_page": "1",
-        "page_url": "http:\/\/sports-store.cmsmasters.net\/yith-compare\/",
+        "page_url": "https:\/\/sports-store.cmsmasters.net\/yith-compare\/",
         "im_in_page": "",
         "view_label": "View Compare",
         "actionfilter": "yith_woocompare_filter_by_cat",
@@ -109,7 +109,7 @@
         "multi_wishlist": "",
         "hide_add_button": "1",
         "is_user_logged_in": "",
-        "ajax_loader_url": "http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-wishlist-premium\/assets\/images\/ajax-loader.gif",
+        "ajax_loader_url": "https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-wishlist-premium\/assets\/images\/ajax-loader.gif",
         "remove_from_wishlist_after_add_to_cart": "yes",
         "labels": {
             "cookie_disabled": "We are sorry, but this feature is available only if cookies are enabled on your browser.",
@@ -139,9 +139,9 @@
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cmsmasters_script = {
-        "theme_url": "http:\/\/sports-store.cmsmasters.net\/wp-content\/themes\/sports-store",
-        "site_url": "http:\/\/sports-store.cmsmasters.net\/",
-        "ajaxurl": "http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
+        "theme_url": "https:\/\/sports-store.cmsmasters.net\/wp-content\/themes\/sports-store",
+        "site_url": "https:\/\/sports-store.cmsmasters.net\/",
+        "ajaxurl": "https:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
         "nonce_ajax_like": "ca9e00ff42",
         "nonce_ajax_view": "f052b72556",
         "project_puzzle_proportion": "1",
@@ -205,7 +205,7 @@
 <script type='text/javascript'>
     /* <![CDATA[ */
     var yith_wcas_params = {
-        "loading": "http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-ajax-search-premium\/assets\/images\/ajax-loader.gif",
+        "loading": "https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-ajax-search-premium\/assets\/images\/ajax-loader.gif",
         "show_all": "false",
         "price_label": "Price:",
         "show_all_text": "View all",
@@ -221,7 +221,7 @@
     var wysijaAJAX = {
         "action": "wysija_ajax",
         "controller": "subscribers",
-        "ajaxurl": "http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
+        "ajaxurl": "https:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
         "loadingTrans": "Loading...",
         "is_rtl": ""
     };
@@ -232,7 +232,7 @@
     /* <![CDATA[ */
     var yith_qv = {
         "ajaxurl": "\/wp-admin\/admin-ajax.php",
-        "loader": "http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-quick-view-premium\/assets\/image\/qv-loader.gif",
+        "loader": "https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-quick-view-premium\/assets\/image\/qv-loader.gif",
         "is2_2": "",
         "increment_plugin": "",
         "type": "yith-modal",
@@ -242,7 +242,7 @@
         "loading_text": "Loading...",
         "enable_zoom": "",
         "redirect_checkout": "",
-        "checkout_url": "http:\/\/sports-store.cmsmasters.net\/checkout\/",
+        "checkout_url": "https:\/\/sports-store.cmsmasters.net\/checkout\/",
         "main_product": "li.product",
         "main_product_link": "li.product > a",
         "popup_size_width": "1000",
@@ -251,7 +251,7 @@
     };
     var yith_qv = {
         "ajaxurl": "\/wp-admin\/admin-ajax.php",
-        "loader": "http:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-quick-view-premium\/assets\/image\/qv-loader.gif",
+        "loader": "https:\/\/sports-store.cmsmasters.net\/wp-content\/plugins\/yith-woocommerce-quick-view-premium\/assets\/image\/qv-loader.gif",
         "is2_2": "",
         "increment_plugin": "",
         "type": "yith-modal",
@@ -261,7 +261,7 @@
         "loading_text": "Loading...",
         "enable_zoom": "",
         "redirect_checkout": "",
-        "checkout_url": "http:\/\/sports-store.cmsmasters.net\/checkout\/",
+        "checkout_url": "https:\/\/sports-store.cmsmasters.net\/checkout\/",
         "main_product": "li.product",
         "main_product_link": "li.product > a",
         "popup_size_width": "1000",

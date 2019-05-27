@@ -4,8 +4,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="profile" href="http://gmpg.org/xfn/11"/>
-    <link rel="pingback" href="http://sports-store.cmsmasters.net/xmlrpc.php"/>
+    <link rel="profile" href="https://gmpg.org/xfn/11"/>
+    <link rel="pingback" href="https://sports-store.cmsmasters.net/xmlrpc.php"/>
     <script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
     <script src="{{ asset('latest_news/js/jquery.min.js') }}"></script>
 
@@ -37,16 +37,16 @@
           href='{{ asset('online_store/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider7a2d.css?ver=6.7.6') }}'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='contact-form-7-css'
-          href='http://sports-store.cmsmasters.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3'
+          href='https://sports-store.cmsmasters.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='cookie-notice-front-css'
           href='{{ asset('online_store/wp-content/plugins/cookie-notice/css/front.min37cb.css?ver=4.9.7') }}'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='sb_instagram_styles-css'
-          href='http://sports-store.cmsmasters.net/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.9.1'
+          href='https://sports-store.cmsmasters.net/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.9.1'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='sb-font-awesome-css'
-          href='http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css'
+          href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css'
           media='all'/>
     <link rel='stylesheet' id='rs-plugin-settings-css'
           href='{{ asset('online_store/wp-content/plugins/revslider/public/assets/css/settings26ce.css?ver=5.4.7.4') }}'
@@ -258,7 +258,7 @@
         #cmsmasters_fb_7602dcb188 {
             padding-top: 155px;
             padding-bottom: 170px;
-            background-image: url(http://sports-store.cmsmasters.net/wp-content/uploads/2015/12/1.jpg);
+            background-image: url(https://sports-store.cmsmasters.net/wp-content/uploads/2015/12/1.jpg);
             background-position: top center;
             background-repeat: no-repeat;
             background-attachment: scroll;
@@ -287,7 +287,7 @@
         #cmsmasters_fb_8338a49560 {
             padding-top: 110px;
             padding-bottom: 125px;
-            background-image: url(http://sports-store.cmsmasters.net/wp-content/uploads/2015/12/2-2.jpg);
+            background-image: url(https://sports-store.cmsmasters.net/wp-content/uploads/2015/12/2-2.jpg);
             background-position: top center;
             background-repeat: no-repeat;
             background-attachment: scroll;
@@ -331,7 +331,7 @@
         #cmsmasters_fb_4b66fac24a {
             padding-top: 110px;
             padding-bottom: 125px;
-            background-image: url(http://sports-store.cmsmasters.net/wp-content/uploads/2015/12/3-2.jpg);
+            background-image: url(https://sports-store.cmsmasters.net/wp-content/uploads/2015/12/3-2.jpg);
             background-position: top center;
             background-repeat: no-repeat;
             background-attachment: scroll;
@@ -375,7 +375,7 @@
         #cmsmasters_fb_780966b739 {
             padding-top: 110px;
             padding-bottom: 125px;
-            background-image: url(http://sports-store.cmsmasters.net/wp-content/uploads/2015/12/4-2.jpg);
+            background-image: url(https://sports-store.cmsmasters.net/wp-content/uploads/2015/12/4-2.jpg);
             background-position: top center;
             background-repeat: no-repeat;
             background-attachment: scroll;
@@ -459,7 +459,7 @@
         #cmsmasters_fb_6dbde1c1e3 {
             padding-top: 165px;
             padding-bottom: 185px;
-            background-image: url(http://sports-store.cmsmasters.net/wp-content/uploads/2015/12/5.jpg);
+            background-image: url(https://sports-store.cmsmasters.net/wp-content/uploads/2015/12/5.jpg);
             background-position: top center;
             background-repeat: no-repeat;
             background-attachment: scroll;
@@ -817,7 +817,7 @@
           href='{{ asset('online_store/wp-content/uploads/cmsmasters_styles/sports-store8a54.css?ver=1.0.0') }}'
           type='text/css' media='screen'/>
     <link rel='stylesheet' id='google-fonts-css'
-          href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C400italic%2C700%2C700italic&amp;ver=4.9.7'
+          href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C400italic%2C700%2C700italic&amp;ver=4.9.7'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='sports-store-theme-vars-style-css'
           href='{{ asset('online_store/wp-content/themes/sports-store/theme-vars/theme-style/css/vars-style8a54.css?ver=1.0.0') }}'
@@ -1017,7 +1017,7 @@
     <script type='text/javascript'>
         /* <![CDATA[ */
         var cnArgs = {
-            "ajaxurl": "http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
+            "ajaxurl": "https:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
             "hideEffect": "fade",
             "onScroll": "",
             "onScrollOffset": "100",
@@ -1051,7 +1051,7 @@
             src='{{ asset('online_store/wp-content/themes/sports-store/js/jquery.iLightBox.min3601.js?ver=2.2.0') }}'></script>
     <meta name="generator"
           content="Powered by LayerSlider 6.7.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress."/>
-    <!-- LayerSlider updates and docs at: http://layerslider.kreaturamedia.com -->
+    <!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
 
     <noscript>
         <style>.woocommerce-product-gallery {
@@ -1067,7 +1067,7 @@
     <link rel="apple-touch-icon-precomposed"
           href="{{ asset('online_store/wp-content/uploads/2017/05/cropped-favicon-1-3-180x180.png') }}"/>
     <meta name="msapplication-TileImage"
-          content="http://sports-store.cmsmasters.net/wp-content/uploads/2017/05/cropped-favicon-1-3-270x270.png"/>
+          content="https://sports-store.cmsmasters.net/wp-content/uploads/2017/05/cropped-favicon-1-3-270x270.png"/>
     <script type="text/javascript">function setREVStartSize(e) {
             try {
                 e.c = jQuery(e.c);
@@ -1099,7 +1099,7 @@
 <div class="cmsmasters_header_search_form">
     <span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span>
     <div class="yith-ajaxsearchform-container cmsmasters_ajax_search_premium">
-        <form method="get" id="yith-ajaxsearchform" action="http://sports-store.cmsmasters.net/">
+        <form method="get" id="yith-ajaxsearchform" action="https://sports-store.cmsmasters.net/">
             <div class="yith-ajaxsearchform-container">
                 <div class="yith-ajaxsearchform-select">
                     <input type="hidden" name="post_type" class="yit_wcas_post_type" id="yit_wcas_post_type"
@@ -1116,7 +1116,7 @@
                                class="yith-s empty"
                                placeholder="Search for products"
                                data-append-to=".search-navigation"
-                               data-loader-icon="http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
+                               data-loader-icon="https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
                                data-min-chars="3"/>
 
                     </div>
@@ -1186,7 +1186,7 @@
                                              style="margin-bottom: 30px">
                                             <div class="cmsmasters_column_inner">
                                                 <div id="cmsmasters_fb_8338a49560" class="cmsmasters_featured_block"
-                                                     style="background-image: url('http://storeback.forma-eg.com/images/subcategory/{{ $subcate->image }}');">
+                                                     style="background-image: url('https://storeback.forma-eg.com/images/subcategory/{{ $subcate->image }}');">
                                                     <div class="featured_block_inner">
                                                         <div class="featured_block_text">
                                                             <div id="cmsmasters_heading_ac6813fb7e"
@@ -1225,7 +1225,7 @@
                                             </div>
                                             <div class="aligncenter">
                                                 <div class="cmsmasters_img  cmsmasters_image_c"><img
-                                                            src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/line.jpg"
+                                                            src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/line.jpg"
                                                             alt="line"/></div>
                                             </div>
                                             <div id="cmsmasters_divider_c15b9a5fa8" class="cl"></div>
@@ -1243,12 +1243,12 @@
                                                                                 @endphp
                                                                                 <img width="540" height="540"
                                                                                      style="height: 250px"
-                                                                                     src="http://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
+                                                                                     src="https://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
                                                                                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                                                      sizes="(max-width: 540px) 100vw, 540px"/>
                                                                                 <img width="540" height="540"
                                                                                      style="height: 250px"
-                                                                                     src="http://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
+                                                                                     src="https://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
                                                                                      class="attachment-shop_catalog size-shop_catalog"
                                                                                      sizes="(max-width: 540px) 100vw, 540px"/>
                                                                             </a>
@@ -1339,7 +1339,7 @@
                       class="woocommerce-Price-currencySymbol">L.E </span></span>{{ $product->price }}</span></span>
                                                                                 <div class="cmsmasters_star_rating"
                                                                                      itemscope
-                                                                                     itemtype="http://schema.org/AggregateRating"
+                                                                                     itemtype="https://schema.org/AggregateRating"
                                                                                      title="Rated 5.00 out of 5">
                                                                                     <div class="cmsmasters_star_trans_wrap">
                                                                                         @for($i=0;$i < 5;$i++)
@@ -1412,7 +1412,7 @@
                                             </div>
                                             <div class="aligncenter">
                                                 <div class="cmsmasters_img  cmsmasters_image_c"><img
-                                                            src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/line.jpg"
+                                                            src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/line.jpg"
                                                             alt="line"/></div>
                                             </div>
                                             <div id="cmsmasters_divider_77b369d236" class="cl"></div>
@@ -1432,12 +1432,12 @@
                                                                         @endphp
                                                                         <img width="540" height="540"
                                                                              style="height: 250px"
-                                                                             src="http://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
+                                                                             src="https://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
                                                                              class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                                              sizes="(max-width: 540px) 100vw, 540px"/>
                                                                         <img width="540" height="540"
                                                                              style="height: 250px"
-                                                                             src="http://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
+                                                                             src="https://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
                                                                              class="attachment-shop_catalog size-shop_catalog"
                                                                              sizes="(max-width: 540px) 100vw, 540px"/>
                                                                     </a>
@@ -1484,7 +1484,7 @@
 
                                                                         <div class="cmsmasters_star_rating"
                                                                              itemscope
-                                                                             itemtype="http://schema.org/AggregateRating"
+                                                                             itemtype="https://schema.org/AggregateRating"
                                                                              title="Rated 5.00 out of 5">
                                                                             <div class="cmsmasters_star_trans_wrap">
                                                                                 @for($i=0;$i < 5;$i++)
@@ -1616,23 +1616,23 @@
                                                     <div class="textwidget">
                                                         <ul class="styled_list">
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/how-to-make-an-order/">How
+                                                                <a href="https://sports-store.cmsmasters.net/how-to-make-an-order/">How
                                                                     to Make an Order?</a></li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/delivery-terms/">Delivery
+                                                                <a href="https://sports-store.cmsmasters.net/delivery-terms/">Delivery
                                                                     Terms</a></li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/my-account-2/">My
+                                                                <a href="https://sports-store.cmsmasters.net/my-account-2/">My
                                                                     Orders</a></li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/return/">Return</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/return/">Return</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/contacts/">Gift
+                                                            <li><a href="https://sports-store.cmsmasters.net/contacts/">Gift
                                                                     Certificates</a></li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/">About
+                                                            <li><a href="https://sports-store.cmsmasters.net/">About
                                                                     Us</a></li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/contacts/">For
+                                                            <li><a href="https://sports-store.cmsmasters.net/contacts/">For
                                                                     Partners</a></li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/contacts/">Submit
+                                                            <li><a href="https://sports-store.cmsmasters.net/contacts/">Submit
                                                                     a Review</a></li>
                                                         </ul>
                                                     </div>
@@ -1641,19 +1641,19 @@
                                                         Shop by brand</h3>
                                                     <div class="textwidget">
                                                         <ul class="styled_list">
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Viking</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Viking</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Brown</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Brown</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Sportmaster</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Sportmaster</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Dalance</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Dalance</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Heavy
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Heavy
                                                                     Armor</a></li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Kontakt</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Kontakt</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Camio</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Camio</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1662,22 +1662,22 @@
                                                         Shop by sport</h3>
                                                     <div class="textwidget">
                                                         <ul class="styled_list">
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Running</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Running</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Training
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Training
                                                                     & Gym</a></li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Soccer</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Soccer</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Basketball</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Basketball</a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/shop-2">Golf</a>
+                                                                <a href="https://sports-store.cmsmasters.net/shop-2">Golf</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Skateboarding</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Skateboarding</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Baseball</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Baseball</a>
                                                             </li>
-                                                            <li><a href="http://sports-store.cmsmasters.net/shop-2">Tennis</a>
+                                                            <li><a href="https://sports-store.cmsmasters.net/shop-2">Tennis</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1687,28 +1687,28 @@
                                                     <div class="textwidget">
                                                         <ul class="styled_list">
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/for-men/">For
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/for-men/">For
                                                                     Men</a></li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/for-women/">For
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/for-women/">For
                                                                     Women</a></li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/accessories-2/">Accessories</a>
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/accessories-2/">Accessories</a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/shoes/">Shoes</a>
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/shoes/">Shoes</a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/tools-for-fitness/">Tools
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/tools-for-fitness/">Tools
                                                                     for Fitness</a></li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/for-men/training-shorts/">Training
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/for-men/training-shorts/">Training
                                                                     Shorts</a></li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/unisex/">Unisex</a>
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/unisex/">Unisex</a>
                                                             </li>
                                                             <li>
-                                                                <a href="http://sports-store.cmsmasters.net/product-category/shoes/sneakers/">Sneakers</a>
+                                                                <a href="https://sports-store.cmsmasters.net/product-category/shoes/sneakers/">Sneakers</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1754,19 +1754,19 @@
                                                      data-slide-speed="1000" data-pagination-speed="1000"
                                                      data-pagination="false" data-navigation="false">
                                                     <div class="cmsmasters_clients_item item cmsmasters_owl_slider_item">
-                                                        <img src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/5-1.png"
+                                                        <img src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/5-1.png"
                                                              alt="viking" title="viking"/></div>
                                                     <div class="cmsmasters_clients_item item cmsmasters_owl_slider_item">
-                                                        <img src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/1.png"
+                                                        <img src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/1.png"
                                                              alt="brown" title="brown"/></div>
                                                     <div class="cmsmasters_clients_item item cmsmasters_owl_slider_item">
-                                                        <img src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/3-1.png"
+                                                        <img src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/3-1.png"
                                                              alt="Sportmaster" title="Sportmaster"/></div>
                                                     <div class="cmsmasters_clients_item item cmsmasters_owl_slider_item">
-                                                        <img src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/2.png"
+                                                        <img src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/2.png"
                                                              alt="Iron Heart" title="Iron Heart"/></div>
                                                     <div class="cmsmasters_clients_item item cmsmasters_owl_slider_item">
-                                                        <img src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/44.png"
+                                                        <img src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/44.png"
                                                              alt="kontakt" title="kontakt"/></div>
                                                 </div>
                                             </div>
@@ -1788,7 +1788,7 @@
                                         <div class="cmsmasters_column_inner">
                                             <div class="aligncenter">
                                                 <div class="cmsmasters_img  cmsmasters_image_c"><img
-                                                            src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/logo-for-home.png"
+                                                            src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/logo-for-home.png"
                                                             alt="logo-for-home"/></div>
                                             </div>
                                             <div id="cmsmasters_divider_120ba617c0" class="cl"></div>
@@ -1856,13 +1856,13 @@
                         <aside id="text-3" class="widget widget_text"><h3 class="widgettitle">Help</h3>
                             <div class="textwidget">
                                 <ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/how-to-make-an-order/">How to Make
+                                    <li><a href="https://sports-store.cmsmasters.net/how-to-make-an-order/">How to Make
                                             an Order?</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/delivery-terms/">Delivery Terms</a>
+                                    <li><a href="https://sports-store.cmsmasters.net/delivery-terms/">Delivery Terms</a>
                                     </li>
-                                    <li><a href="http://sports-store.cmsmasters.net/my-account/">My Orders</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/return/">Returns</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/terms-and-conditions/">Terms and
+                                    <li><a href="https://sports-store.cmsmasters.net/my-account/">My Orders</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/return/">Returns</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/terms-and-conditions/">Terms and
                                             Conditions</a></li>
                                 </ul>
                             </div>
@@ -1871,25 +1871,25 @@
                             <div class="textwidget">
                                 <ul class="styled_list">
                                     <li>
-                                        <a href="http://sports-store.cmsmasters.net/product/different-tools-for-fitness/">Product
+                                        <a href="https://sports-store.cmsmasters.net/product/different-tools-for-fitness/">Product
                                             Simple</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/product/classic-sports-bra/">Product
+                                    <li><a href="https://sports-store.cmsmasters.net/product/classic-sports-bra/">Product
                                             Extended</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/cart/">Your Cart</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/wishlist/">Wishlist</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/shop/">Shop</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/cart/">Your Cart</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/wishlist/">Wishlist</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/shop/">Shop</a></li>
                                 </ul>
                             </div>
                         </aside>
                         <aside id="text-4" class="widget widget_text"><h3 class="widgettitle">Sport Store</h3>
                             <div class="textwidget">
                                 <ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/new-collection/">New Collection </a>
+                                    <li><a href="https://sports-store.cmsmasters.net/new-collection/">New Collection </a>
                                     </li>
-                                    <li><a href="http://sports-store.cmsmasters.net/women/">Women</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/men/">Men</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/blog/">Our Blog</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/contacts/">Contacts</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/women/">Women</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/men/">Men</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/blog/">Our Blog</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/contacts/">Contacts</a></li>
                                 </ul>
                             </div>
                         </aside>

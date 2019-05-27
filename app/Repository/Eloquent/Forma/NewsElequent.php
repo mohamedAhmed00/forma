@@ -13,44 +13,22 @@ use App\Model\Forma\NewsCategory;
 use App\Model\Forma\NewsSubcategory;
 use App\Repository\Interfaces\Forma\NewsInterface;
 
-class NewsElequent implements NewsInterface
+class NewsElequent extends BaseElequent implements NewsInterface
 {
-    /*
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getCategoryNews()
+
+    /**
+     * @var
+     */
+    protected $news;
+
+    /**
+     * NewsElequent constructor.
+     * @author Nader Ahmed
+     */
+    public function __construct()
     {
-        return NewsCategory::orderBy('newscmsorder','ASC')->get();
+        $this->news = new News();
+        parent::__construct($this->news);
     }
 
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function getSingleNews(int $id)
-    {
-        return News::find($id);
-    }
-
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function getCategoryNewsById(int $id)
-    {
-        return NewsCategory::find($id);
-    }
-
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function AllNewsInSubCategory(int $id)
-    {
-        return NewsSubcategory::find($id);
-    }
 }

@@ -2,46 +2,68 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Forma\NewsCategory;
+use App\Repository\Interfaces\Forma\CategoryNewsInterface;
 use App\Repository\Interfaces\Forma\NewsInterface;
-use Illuminate\Http\Request;
+use App\Repository\Interfaces\Forma\SubCategoryNewsInterface;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\View;
 
 class NewsController extends Controller
 {
 
-    /*
+    /**
      * @param int $id
      * @return Mix View
      * @auther Nader Ahmed
      * */
     public function SingleNews(int $id,NewsInterface $news)
     {
-        $page = "new";
-        $news = $news->getSingleNews($id);
-        return view('single_news',compact(['news','page']));
+        if (Cache::has('news:'.$id) ) {
+            return Cache::get('news:'.$id);
+        }
+        else
+        {
+            $news = $news->getById($id);
+            $page =  View::make('news', compact(['news']))->render();
+            Cache::forever('news:'.$id, $page);
+            return $page;
+        }
     }
 
-    /*
+    /**
      * @param int $id
      * @return Mix View
      * @auther Nader Ahmed
      * */
-    public function AllSubCategoryNews($id,NewsInterface $category)
+    public function AllSubCategoryNews($id,CategoryNewsInterface $categoryNews)
     {
-        $page = "new";
-        $category = $category->getCategoryNewsById($id);
-        return view('more_news_subcategory', compact(['category','page']));
-
+        if (Cache::has('subcategory:'.$id) ) {
+            return Cache::get('subcategory:'.$id);
+        }
+        else
+        {
+            $category = $categoryNews->getById($id);
+            $page =  View::make('subcategory', compact(['category']))->render();
+            Cache::forever('subcategory:'.$id, $page);
+            return $page;
+        }
     }
-    /*
+    /**
      * @param int $id
      * @return Mix View
      * @auther Nader Ahmed
      * */
-    public function AllNewsInSubCategory($id,NewsInterface $category)
+    public function AllNewsInSubCategory($id,SubCategoryNewsInterface $subCategoryNews)
     {
-        $page = "new";
-        $subcategory = $category->AllNewsInSubCategory($id);
-        return view('more_news', compact(['subcategory','page']));
+        if (Cache::has('news-subcategory:'.$id) ) {
+            return Cache::get('news-subcategory:'.$id);
+        }
+        else
+        {
+            $subcategory = $subCategoryNews->getById($id);
+            $page =  View::make('news-subcategory', compact(['subcategory']))->render();
+            Cache::forever('news-subcategory:'.$id, $page);
+            return $page;
+        }
     }
 }

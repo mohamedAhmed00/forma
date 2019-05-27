@@ -15,7 +15,7 @@ class NewsSubcategory extends Model
      * */
     function getNews()
     {
-        return $this->hasMany(News::class,'subcategory_id','id')->where('post_active','True')->orderBy('postdisplay_order');
+        return $this->hasMany(News::class,'subcategory_id','id')->with('getData')->where('post_active','True')->orderBy('postdisplay_order');
     }
 
     /*

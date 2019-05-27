@@ -11,9 +11,5 @@ namespace App\Repository\Interfaces\Forma;
 
 interface LocationInterface
 {
-    /*
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getAllLocations();
+
 }

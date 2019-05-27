@@ -70,7 +70,7 @@ class CartElequent implements CartInterface
                             <button data-title="'. $item->rowId .'" class="remove remove_from_cart_button">×</button>
                    
                      <a href="'.url("product/".$item->id).'">
-                        <img src="http://storeback.forma-eg.com/images/product/'. $image .'" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" sizes="(max-width: 540px) 100vw, 540px" width="540" height="540">'.$item->name.'</a>
+                        <img src="https://storeback.forma-eg.com/images/product/'. $image .'" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" sizes="(max-width: 540px) 100vw, 540px" width="540" height="540">'.$item->name.'</a>
                         <span class="quantity">'.$item->qty.' × 
                             <span class="woocommerce-Price-amount amount">
                                 <span>

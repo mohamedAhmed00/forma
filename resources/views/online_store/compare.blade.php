@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="cmsmasters_html">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
+<meta https-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -9,16 +9,16 @@
     <meta name="keywords" content="{{ $setting->meta_keyword }}"/>
     <meta name="author" content="{{ $setting->meta_auther }}"/>
     <title>{{ $setting->title }}</title>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     @include('online_store/template/head')
     <link rel="icon" type="image/png"
           href="{{asset('Forma'.$setting->favicon)}}" sizes="16x16">
     <link rel="icon" type="image/png"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="32x32">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="72x72"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <style>
         .content
         {
@@ -49,7 +49,7 @@
 <div class="cmsmasters_header_search_form">
     <span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span>
     <div class="yith-ajaxsearchform-container cmsmasters_ajax_search_premium">
-        <form method="get" id="yith-ajaxsearchform" action="http://sports-store.cmsmasters.net/">
+        <form method="get" id="yith-ajaxsearchform" action="https://sports-store.cmsmasters.net/">
             <div class="yith-ajaxsearchform-container">
                 <div class="yith-ajaxsearchform-select">
                     <input type="hidden" name="post_type" class="yit_wcas_post_type" id="yit_wcas_post_type"
@@ -66,7 +66,7 @@
                                class="yith-s empty"
                                placeholder="Search for products"
                                data-append-to=".search-navigation"
-                               data-loader-icon="http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
+                               data-loader-icon="https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
                                data-min-chars="3"/>
 
                     </div>
@@ -124,7 +124,7 @@
                                                 </div>
                                                 <a href="{{ url('product/' . $item['id']) }}">
                                                     <div class="image-wrap">
-                                                        <img src="http://storeback.forma-eg.com/images/product/{{ $item['options']['image'] }}"
+                                                        <img src="https://storeback.forma-eg.com/images/product/{{ $item['options']['image'] }}"
                                                              class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                              sizes="(max-width: 540px) 100vw, 540px" width="540"
                                                              height="540">
@@ -188,7 +188,7 @@
                                         @foreach($compare as $item)
                                             <td class="odd product_1664">
                                                 <div class="cmsmasters_star_rating" itemscope
-                                                     itemtype="http://schema.org/AggregateRating" style="margin-left: 35%;width: 50%;" title="Rated 5.00 out of 5">
+                                                     itemtype="https://schema.org/AggregateRating" style="margin-left: 35%;width: 50%;" title="Rated 5.00 out of 5">
                                                     <div class="cmsmasters_star_trans_wrap">
                                                         @for($i=0;$i < 5;$i++)
                                                             @if($i > $item['options']['product']['rating'])
@@ -233,13 +233,13 @@
                         <aside id="text-3" class="widget widget_text"><h3 class="widgettitle">Help</h3>
                             <div class="textwidget">
                                 <ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/how-to-make-an-order/">How to Make
+                                    <li><a href="https://sports-store.cmsmasters.net/how-to-make-an-order/">How to Make
                                             an Order?</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/delivery-terms/">Delivery Terms</a>
+                                    <li><a href="https://sports-store.cmsmasters.net/delivery-terms/">Delivery Terms</a>
                                     </li>
-                                    <li><a href="http://sports-store.cmsmasters.net/my-account/">My Orders</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/return/">Returns</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/terms-and-conditions/">Terms and
+                                    <li><a href="https://sports-store.cmsmasters.net/my-account/">My Orders</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/return/">Returns</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/terms-and-conditions/">Terms and
                                             Conditions</a></li>
                                 </ul>
                             </div>
@@ -248,25 +248,25 @@
                             <div class="textwidget">
                                 <ul class="styled_list">
                                     <li>
-                                        <a href="http://sports-store.cmsmasters.net/product/different-tools-for-fitness/">Product
+                                        <a href="https://sports-store.cmsmasters.net/product/different-tools-for-fitness/">Product
                                             Simple</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/product/classic-sports-bra/">Product
+                                    <li><a href="https://sports-store.cmsmasters.net/product/classic-sports-bra/">Product
                                             Extended</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/cart/">Your Cart</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/wishlist/">Wishlist</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/shop/">Shop</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/cart/">Your Cart</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/wishlist/">Wishlist</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/shop/">Shop</a></li>
                                 </ul>
                             </div>
                         </aside>
                         <aside id="text-4" class="widget widget_text"><h3 class="widgettitle">Sport Store</h3>
                             <div class="textwidget">
                                 <ul class="styled_list">
-                                    <li><a href="http://sports-store.cmsmasters.net/new-collection/">New Collection </a>
+                                    <li><a href="https://sports-store.cmsmasters.net/new-collection/">New Collection </a>
                                     </li>
-                                    <li><a href="http://sports-store.cmsmasters.net/women/">Women</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/men/">Men</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/blog/">Our Blog</a></li>
-                                    <li><a href="http://sports-store.cmsmasters.net/contacts/">Contacts</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/women/">Women</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/men/">Men</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/blog/">Our Blog</a></li>
+                                    <li><a href="https://sports-store.cmsmasters.net/contacts/">Contacts</a></li>
                                 </ul>
                             </div>
                         </aside>

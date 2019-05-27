@@ -11,30 +11,5 @@ namespace App\Repository\Interfaces\Forma;
 
 interface NewsInterface
 {
-    /*
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getCategoryNews();
 
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function getSingleNews(int $id);
-
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function getCategoryNewsById(int $id);
-
-    /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function AllNewsInSubCategory(int $id);
 }

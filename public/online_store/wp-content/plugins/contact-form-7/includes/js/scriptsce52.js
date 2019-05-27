@@ -177,7 +177,7 @@
 			&& ! val.match( /^[a-z][a-z0-9.+-]*:/i )
 			&& -1 !== val.indexOf( '.' ) ) {
 				val = val.replace( /^\/+/, '' );
-				val = 'http://' + val;
+				val = 'https://' + val;
 			}
 
 			$( this ).val( val );
@@ -512,7 +512,7 @@
 
 /*
  * Polyfill for Internet Explorer
- * See http://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
+ * See https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
  */
 ( function () {
 	if ( typeof window.CustomEvent === "function" ) return false;

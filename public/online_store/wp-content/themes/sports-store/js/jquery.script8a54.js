@@ -249,7 +249,7 @@ jQuery(document).ready(function() {
 			if (cmsmasters_script.gmap_api_key === '') {
 				$(params.id).append('<div class="cmsmasters_notice cmsmasters_notice_error cmsmasters_theme_icon_cancel">' + 
 					'<div class="notice_content">' + 
-						'<p>' + cmsmasters_script.gmap_api_key_notice + ', ' + '<a target="_blank" href="http://cmsmasters.net/google-maps-api-key/">' + cmsmasters_script.gmap_api_key_notice_link + '</a></p>' + 
+						'<p>' + cmsmasters_script.gmap_api_key_notice + ', ' + '<a target="_blank" href="https://cmsmasters.net/google-maps-api-key/">' + cmsmasters_script.gmap_api_key_notice_link + '</a></p>' + 
 					'</div>' + 
 				'</div>');
 			} else {

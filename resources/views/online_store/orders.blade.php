@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US" class="cmsmasters_html">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta https-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
     <title>{{ $setting->title }} &#8211; Sports Store</title>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link rel='stylesheet' id='validate-engine-css-css'
           href='{{ asset('online_store/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery4dc3.css?ver=2.8.2') }}'
@@ -1520,7 +1520,7 @@
           href='{{ asset('online_store/wp-content/uploads/cmsmasters_styles/sports-store8a54.css?ver=1.0.0') }}'
           type='text/css' media='screen'/>
     <link rel='stylesheet' id='google-fonts-css'
-          href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C400italic%2C700%2C700italic&amp;ver=4.9.7'
+          href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C400italic%2C700%2C700italic&amp;ver=4.9.7'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='sports-store-theme-vars-style-css'
           href='{{ asset('online_store/wp-content/themes/sports-store/theme-vars/theme-style/css/vars-style8a54.css?ver=1.0.0') }}'
@@ -1725,7 +1725,7 @@
 <div class="cmsmasters_header_search_form">
     <span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span>
     <div class="yith-ajaxsearchform-container cmsmasters_ajax_search_premium">
-        <form method="get" id="yith-ajaxsearchform" action="http://sports-store.cmsmasters.net/">
+        <form method="get" id="yith-ajaxsearchform" action="https://sports-store.cmsmasters.net/">
             <div class="yith-ajaxsearchform-container">
                 <div class="yith-ajaxsearchform-select">
                     <input type="hidden" name="post_type" class="yit_wcas_post_type" id="yit_wcas_post_type"
@@ -1742,7 +1742,7 @@
                                class="yith-s empty"
                                placeholder="Search for products"
                                data-append-to=".search-navigation"
-                               data-loader-icon="http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
+                               data-loader-icon="https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
                                data-min-chars="3"/>
 
                     </div>

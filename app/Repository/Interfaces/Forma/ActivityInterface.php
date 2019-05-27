@@ -11,23 +11,5 @@ namespace App\Repository\Interfaces\Forma;
 
 interface ActivityInterface
 {
-    /*
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getAllActivity();
 
-    /*
-     * @params int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getActivityGyms(int $id);
-
-    /*
-     * @params int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     **/
-    public function getSingleActivity($id);
 }

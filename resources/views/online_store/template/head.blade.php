@@ -1469,7 +1469,7 @@
 <link rel='stylesheet' id='ilightbox-css' href='{{ asset('online_store/wp-content/themes/sports-store/css/ilightbox3601.css?ver=2.2.0') }}' type='text/css' media='screen'/>
 <link rel='stylesheet' id='ilightbox-skin-dark-css' href='{{ asset('online_store/wp-content/themes/sports-store/css/ilightbox-skins/dark-skin3601.css?ver=2.2.0') }}' type='text/css' media='screen'/>
 <link rel='stylesheet' id='sports-store-fonts-schemes-css' href='{{ asset('online_store/wp-content/uploads/cmsmasters_styles/sports-store8a54.css?ver=1.0.0') }}' type='text/css' media='screen'/>
-<link rel='stylesheet' id='google-fonts-css' href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C400italic%2C700%2C700italic&amp;ver=4.9.7' type='text/css' media='all'/>
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%7CRoboto+Condensed%3A400%2C400italic%2C700%2C700italic&amp;ver=4.9.7' type='text/css' media='all'/>
 <link rel='stylesheet' id='sports-store-theme-vars-style-css' href='{{ asset('online_store/wp-content/themes/sports-store/theme-vars/theme-style/css/vars-style8a54.css?ver=1.0.0') }}' type='text/css' media='screen, print'/>
 <link rel='stylesheet' id='sports-store-woocommerce-style-css' href='{{ asset('online_store/wp-content/themes/sports-store/woocommerce/cmsmasters-framework/theme-style/css/plugin-style8a54.css?ver=1.0.0') }}' type='text/css' media='screen'/>
 <link rel='stylesheet' id='sports-store-woocommerce-adaptive-css' href='{{ asset('online_store/wp-content/themes/sports-store/woocommerce/cmsmasters-framework/theme-style/css/plugin-adaptive8a54.css?ver=1.0.0') }}' type='text/css' media='screen'/>
@@ -1699,7 +1699,7 @@
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cnArgs = {
-        "ajaxurl": "http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
+        "ajaxurl": "https:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
         "hideEffect": "fade",
         "onScroll": "",
         "onScrollOffset": "100",
@@ -1726,7 +1726,7 @@
 <script type='text/javascript' src='{{ asset('online_store/wp-content/themes/sports-store/js/jquery.iLightBox.min3601.js?ver=2.2.0') }}'></script>
 <meta name="generator"
       content="Powered by LayerSlider 6.7.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress."/>
-<!-- LayerSlider updates and docs at: http://layerslider.kreaturamedia.com -->
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
 
 <noscript>
     <style>.woocommerce-product-gallery {
@@ -1739,7 +1739,7 @@
 <link rel="icon" href="{{ asset('online_store/wp-content/uploads/2017/05/cropped-favicon-1-3-192x192.png') }}" sizes="192x192"/>
 <link rel="apple-touch-icon-precomposed" href="{{ asset('online_store/wp-content/uploads/2017/05/cropped-favicon-1-3-180x180.png') }}"/>
 <meta name="msapplication-TileImage"
-      content="http://sports-store.cmsmasters.net/wp-content/uploads/2017/05/cropped-favicon-1-3-270x270.png"/>
+      content="https://sports-store.cmsmasters.net/wp-content/uploads/2017/05/cropped-favicon-1-3-270x270.png"/>
 <script type="text/javascript">function setREVStartSize(e) {
         try {
             e.c = jQuery(e.c);

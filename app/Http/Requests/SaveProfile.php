@@ -3,7 +3,7 @@
 namespace App\Http\Requests;
 
 use App\Repository\Interfaces\Store\ProfileInterface;
-use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Illuminate\Http\FormRequest;
 
 class SaveProfile extends FormRequest
 {

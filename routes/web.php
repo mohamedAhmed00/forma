@@ -3,7 +3,7 @@
 Route::get('/', 'FrontEndController@index');
 Route::get('/about', 'FrontEndController@about');
 Route::get('membership', 'FrontEndController@membership');
-
+Route::get('refreshCachToNewEditInFormaSite', 'FrontEndController@clearCache');
 
 Route::get('/activity/{id}', 'ActivityController@activity');
 Route::post('/activity/{id}', 'ActivityController@ActivityDetailsFilter');
@@ -12,12 +12,6 @@ Route::get('single/activity/{id}', 'ActivityController@singleActivityDetail');
 Route::get('/newssubcategory/{id}', 'NewsController@AllNewsInSubCategory');
 Route::get('/subcategory/{id}', 'NewsController@AllSubCategoryNews');
 Route::get('/singlenews/{id}', 'NewsController@SingleNews');
-
-Route::get('athlete/profile/{id}', 'AthleteTrainerController@athlete');
-Route::get('trainer/profile/{id}', 'AthleteTrainerController@trainer');
-Route::get('profile/gallery/{id}', 'AthleteTrainerController@gallery');
-Route::get('trainer/show', 'AthleteTrainerController@personalTrainersShow');
-Route::get('athlete/show', 'AthleteTrainerController@athletesShow');
 
 Route::post('search/product', 'FilterProductController@productSearchByName');
 Route::get('search/product', 'SportStoreController@shop');
@@ -46,9 +40,6 @@ Route::resource('compare','CompareController');
 Route::get('getFee/{id}', 'OrderController@getFee');
 Route::post('checkout/process', 'OrderController@checkoutProcess');
 Route::get('/checkout', 'OrderController@checkout');
-
-
-
 
 Route::get('diets', 'DietController@diet');
 Route::get('diet1/{name}', 'DietController@diet1');

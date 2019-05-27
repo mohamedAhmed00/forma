@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="cmsmasters_html">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
+<meta https-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -11,20 +11,20 @@
     <title>{{ $setting->title }}</title>
     @include('online_store/template/head')
     <link rel="icon" type="image/png"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="16x16">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="16x16">
     <link rel="icon" type="image/png"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="32x32">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="72x72"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
 </head>
 <body class="home page-template-default page page-id-7366 cookies-not-set woocommerce-no-js ywcas-sports-store yith-wcan-free">
 
 <div class="cmsmasters_header_search_form">
     <span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span>
     <div class="yith-ajaxsearchform-container cmsmasters_ajax_search_premium">
-        <form method="get" id="yith-ajaxsearchform" action="http://sports-store.cmsmasters.net/">
+        <form method="get" id="yith-ajaxsearchform" action="https://sports-store.cmsmasters.net/">
             <div class="yith-ajaxsearchform-container">
                 <div class="yith-ajaxsearchform-select">
                     <input type="hidden" name="post_type" class="yit_wcas_post_type" id="yit_wcas_post_type"
@@ -41,7 +41,7 @@
                                class="yith-s empty"
                                placeholder="Search for products"
                                data-append-to=".search-navigation"
-                               data-loader-icon="http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
+                               data-loader-icon="https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
                                data-min-chars="3"/>
 
                     </div>
@@ -86,7 +86,7 @@
 
                                                 <div id="cmsmasters_fb_1c7766695c"
                                                      class="cmsmasters_featured_block cmsmasters_featured_block_hover"
-                                                     style="background-image: url('{{ asset('http://storeback.forma-eg.com/images/Category/'.$cate->image) }}')">
+                                                     style="background-image: url('{{ asset('https://storeback.forma-eg.com/images/Category/'.$cate->image) }}')">
                                                     <a class="cmsmasters_featured_block_link"
                                                        href="{{ url('shop/cate/'.$cate->id) }}"></a>
                                                     <div class="featured_block_inner">
@@ -134,7 +134,7 @@
                                                  class="cmsmasters_featured_block cmsmasters_featured_block_hover"
                                                  style="background-image: url('{{ asset("online_store/wp-content/img/4-2.jpg") }}')">
                                                 <a class="cmsmasters_featured_block_link"
-                                                   href="http://sports-store.cmsmasters.net/shop"></a>
+                                                   href="https://sports-store.cmsmasters.net/shop"></a>
                                                 <div class="featured_block_inner">
                                                     <div class="featured_block_text">
                                                         <div id="cmsmasters_heading_89db67754d42"
@@ -148,7 +148,7 @@
                                                         <div id="cmsmasters_heading_be46b6r4d74e"
                                                              class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
                                                             <h5 class="cmsmasters_heading"><a
-                                                                        href="http://sports-store.cmsmasters.net/new-collection/">Get
+                                                                        href="https://sports-store.cmsmasters.net/new-collection/">Get
                                                                     the discount OF 20%</a></h5>
                                                         </div>
                                                     </div>
@@ -162,7 +162,7 @@
                                                  class="cmsmasters_featured_block cmsmasters_featured_block_hover"
                                                  style="background-image: url('{{ asset("online_store/wp-content/img/6-1.jpg") }}')">
                                                 <a class="cmsmasters_featured_block_link"
-                                                   href="http://sports-store.cmsmasters.net/new-collection/"></a>
+                                                   href="https://sports-store.cmsmasters.net/new-collection/"></a>
                                                 <div class="featured_block_inner">
                                                     <div class="featured_block_text">
                                                         <div id="cmsmasters_heading_89db67754d41"
@@ -176,7 +176,7 @@
                                                         <div id="cmsmasters_heading_be46b6r4d73e"
                                                              class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
                                                             <h5 class="cmsmasters_heading"><a
-                                                                        href="http://sports-store.cmsmasters.net/new-collection/">Shop
+                                                                        href="https://sports-store.cmsmasters.net/new-collection/">Shop
                                                                     Now</a></h5>
                                                         </div>
                                                     </div>
@@ -190,7 +190,7 @@
                                                  class="cmsmasters_featured_block cmsmasters_featured_block_hover"
                                                  style="background-image: url('{{ asset("online_store/wp-content/img/7-1.jpg") }}')">
                                                 <a class="cmsmasters_featured_block_link"
-                                                   href="http://sports-store.cmsmasters.net/shop"></a>
+                                                   href="https://sports-store.cmsmasters.net/shop"></a>
                                                 <div class="featured_block_inner">
                                                     <div class="featured_block_text">
                                                         <div id="cmsmasters_heading_892db754d41"
@@ -204,7 +204,7 @@
                                                         <div id="cmsmasters_heading_be4678b6d73e"
                                                              class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
                                                             <h5 class="cmsmasters_heading"><a
-                                                                        href="http://sports-store.cmsmasters.net/new-collection/">top
+                                                                        href="https://sports-store.cmsmasters.net/new-collection/">top
                                                                     brands up to 80% off</a></h5>
                                                         </div>
                                                     </div>
@@ -218,7 +218,7 @@
                                                  class="cmsmasters_featured_block cmsmasters_featured_block_hover"
                                                  style="background-image: url('{{ asset("online_store/wp-content/img/gina-carano.jpg") }}')">
                                                 <a class="cmsmasters_featured_block_link"
-                                                   href="http://sports-store.cmsmasters.net/shop"></a>
+                                                   href="https://sports-store.cmsmasters.net/shop"></a>
                                                 <div class="featured_block_inner">
                                                     <div class="featured_block_text">
                                                         <div id="cmsmasters_heading_89db67754d42"
@@ -232,7 +232,7 @@
                                                         <div id="cmsmasters_heading_be46b6r4d74e"
                                                              class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
                                                             <h5 class="cmsmasters_heading"><a
-                                                                        href="http://sports-store.cmsmasters.net/new-collection/">Products</a>
+                                                                        href="https://sports-store.cmsmasters.net/new-collection/">Products</a>
                                                             </h5>
                                                         </div>
                                                     </div>

@@ -11,10 +11,5 @@ namespace App\Repository\Interfaces\Forma;
 
 interface MembershipInterface
 {
-    /*
-     * @param int $limit
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getMemberShips (int $limit = 3);
+
 }

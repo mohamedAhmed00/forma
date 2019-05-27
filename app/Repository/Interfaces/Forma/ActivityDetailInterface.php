@@ -13,25 +13,12 @@ use Illuminate\Http\Request;
 interface ActivityDetailInterface
 {
     /*
-     * @param int $id
-     * @return Mix
-     * @auther Nader Ahmed
-     * */
-    public function getSingleActivityDetail(int $id);
-
-    /*
      * @param Request $request
      * @return Mix
      * @auther Nader Ahmed
      * */
     public function ActivityDetailsFilter(Request $request);
 
-    /*
-    * @param int $id
-    * @return Mix
-    * @auther Nader Ahmed
-    **/
-    public function getActivityDetailsByActivity($id);
 
     /*
     * @return Mix

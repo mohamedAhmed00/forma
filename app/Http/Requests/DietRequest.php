@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Illuminate\Http\FormRequest;
 
 class DietRequest extends FormRequest
 {

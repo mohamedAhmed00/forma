@@ -30,10 +30,10 @@
             <div class="header_mid_inner">
                 <div class="logo_wrap">
                     <a href="{{ url('onlinestore') }}" title="Sports Store" class="logo">
-                        <img src="http://sports-store.cmsmasters.net/wp-content/themes/sports-store/theme-vars/theme-style/img/logo.png"
+                        <img src="https://sports-store.cmsmasters.net/wp-content/themes/sports-store/theme-vars/theme-style/img/logo.png"
                              alt="Sports Store">
                         <img class="logo_retina"
-                             src="http://sports-store.cmsmasters.net/wp-content/themes/sports-store/theme-vars/theme-style/img/logo_retina.png"
+                             src="https://sports-store.cmsmasters.net/wp-content/themes/sports-store/theme-vars/theme-style/img/logo_retina.png"
                              alt="Sports Store" width="177" height="28">
                     </a>
                 </div>
@@ -62,7 +62,7 @@
                                 <li class="woocommerce-mini-cart-item mini_cart_item">
                                         <button data-title="{{$item->rowId}}"  class="remove remove_from_cart_button">×</button>
                                     <a href="{{ url('product/'.$item->id) }}">
-                                        <img src="http://storeback.forma-eg.com/images/product/{{ $item->options->image }}"
+                                        <img src="https://storeback.forma-eg.com/images/product/{{ $item->options->image }}"
                                                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                      sizes="(max-width: 540px) 100vw, 540px" width="540"
                                                      height="540">{{ $item->name }} </a>

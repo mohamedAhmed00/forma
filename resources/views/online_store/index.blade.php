@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="cmsmasters_html">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
+<meta https-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -12,13 +12,13 @@
     <script src="{{ asset('latest_news/js/jquery.min.js') }}"></script>
     @include('online_store/template/head')
     <link rel="icon" type="image/png"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="16x16">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}" sizes="16x16">
     <link rel="icon" type="image/png"
           href="{{asset('Forma'.$setting->favicon)}}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="72x72"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="{{asset('http://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
+          href="{{asset('https://storeback.forma-eg.com/images/setting/'.$setting->favicon)}}">
     <style>
         .headline_aligner, .cmsmasters_breadcrumbs_aligner {
             min-height: 20px;
@@ -29,7 +29,7 @@
 <div class="cmsmasters_header_search_form">
     <span class="cmsmasters_header_search_form_close cmsmasters_theme_icon_cancel"></span>
     <div class="yith-ajaxsearchform-container cmsmasters_ajax_search_premium">
-        <form method="get" id="yith-ajaxsearchform" action="http://sports-store.cmsmasters.net/">
+        <form method="get" id="yith-ajaxsearchform" action="https://sports-store.cmsmasters.net/">
             <div class="yith-ajaxsearchform-container">
                 <div class="yith-ajaxsearchform-select">
                     <input type="hidden" name="post_type" class="yit_wcas_post_type" id="yit_wcas_post_type"
@@ -46,7 +46,7 @@
                                class="yith-s empty"
                                placeholder="Search for products"
                                data-append-to=".search-navigation"
-                               data-loader-icon="http://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
+                               data-loader-icon="https://sports-store.cmsmasters.net/wp-content/plugins/yith-woocommerce-ajax-search-premium/assets/images/preloader.gif"
                                data-min-chars="3"/>
 
                     </div>
@@ -98,7 +98,7 @@
 
                                                 <div id="cmsmasters_fb_1c7766695c"
                                                      class="cmsmasters_featured_block cmsmasters_featured_block_hover"
-                                                     style="background-image: url('{{ asset('http://storeback.forma-eg.com/images/Category/'.$cate->image) }}')">
+                                                     style="background-image: url('{{ asset('https://storeback.forma-eg.com/images/Category/'.$cate->image) }}')">
                                                     <a class="cmsmasters_featured_block_link"
                                                        href="{{ url('shop/cate/'.$cate->id) }}"></a>
                                                     <div class="featured_block_inner">
@@ -308,12 +308,12 @@
                                                                             @endphp
                                                                             <img width="540" height="540"
                                                                                  style="height: 250px"
-                                                                                 src="http://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
+                                                                                 src="https://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
                                                                                  class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                                                  sizes="(max-width: 540px) 100vw, 540px"/>
                                                                             <img width="540" height="540"
                                                                                  style="height: 250px"
-                                                                                 src="http://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
+                                                                                 src="https://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
                                                                                  class="attachment-shop_catalog size-shop_catalog"
                                                                                  sizes="(max-width: 540px) 100vw, 540px"/>
                                                                         </a>
@@ -362,7 +362,7 @@
                                                                                                 class="woocommerce-Price-currencySymbol">L.E </span></span>{{ $product->price }}</span></span>
                                                                             <div class="cmsmasters_star_rating"
                                                                                  itemscope
-                                                                                 itemtype="http://schema.org/AggregateRating"
+                                                                                 itemtype="https://schema.org/AggregateRating"
                                                                                  title="Rated 5.00 out of 5">
                                                                                 <div class="cmsmasters_star_trans_wrap">
                                                                                     @for($i=0;$i < 5;$i++)
@@ -420,7 +420,7 @@
                                             <div id="cmsmasters_divider_c6e561e1fd" class="cl"></div>
                                             <div class="aligncenter">
                                                 <div class="cmsmasters_img  cmsmasters_image_c"><a
-                                                            href="http://vimeo.com/95380310"
+                                                            href="https://vimeo.com/95380310"
                                                             rel="ilightbox[img_5b5c62efbfccf]"><img
                                                                 src="{{ asset('online_store/wp-content/uploads/2015/11/play.png') }}"
                                                                 alt="play"/></a></div>
@@ -501,12 +501,12 @@
                                                                                 @endphp
                                                                                 <img width="540" height="540"
                                                                                      style="height: 250px"
-                                                                                     src="http://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
+                                                                                     src="https://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)?$details[0]->image:'' }}"
                                                                                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                                                      sizes="(max-width: 540px) 100vw, 540px"/>
                                                                                 <img width="540" height="540"
                                                                                      style="height: 250px"
-                                                                                     src="http://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
+                                                                                     src="https://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
                                                                                      class="attachment-shop_catalog size-shop_catalog"
                                                                                      sizes="(max-width: 540px) 100vw, 540px"/>
                                                                             </a>
@@ -576,7 +576,7 @@
                                                                                                     class="woocommerce-Price-currencySymbol">L.E </span></span>{{ $product->price }}</span></span>
                                                                                 <div class="cmsmasters_star_rating"
                                                                                      itemscope
-                                                                                     itemtype="http://schema.org/AggregateRating"
+                                                                                     itemtype="https://schema.org/AggregateRating"
                                                                                      title="Rated 5.00 out of 5">
                                                                                     <div class="cmsmasters_star_trans_wrap">
                                                                                         @for($i=0;$i < 5;$i++)
@@ -659,7 +659,7 @@
                                                             </div>
                                                             <div style="color: #ffffff; font-size: 22px; display: inline; line-height: 50px;">Download Mobile Apps<div id="cmsmasters_divider_b89abcef3b" class="cl"></div></div>
                                                         </div>
-                                                        <div style="text-align: center;">&nbsp;<div class="aligncenter"><div class="cmsmasters_img  cmsmasters_image_c"><a href="#"><img src="http://sports-store.cmsmasters.net/wp-content/uploads/2015/11/app-store.png" alt="app-store"></a></div></div></div>
+                                                        <div style="text-align: center;">&nbsp;<div class="aligncenter"><div class="cmsmasters_img  cmsmasters_image_c"><a href="#"><img src="https://sports-store.cmsmasters.net/wp-content/uploads/2015/11/app-store.png" alt="app-store"></a></div></div></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -712,7 +712,7 @@
                                                                 <div class="cmsmasters_slider_post_outer">
                                                                     <figure class="cmsmasters_img_rollover_wrap preloader">
                                                                         <img width="580" height="420"
-                                                                             src="{{ asset('http://storeback.forma-eg.com/images/news/'.$new->image) }}"
+                                                                             src="{{ asset('https://storeback.forma-eg.com/images/news/'.$new->image) }}"
                                                                              class="full-width wp-post-image"
                                                                              alt="6 Ways to Get the Perfect Beach Body"
                                                                              title="6 Ways to Get the Perfect Beach Body"/><a
@@ -779,7 +779,7 @@
                                             </div>
                                             <div class="aligncenter">
                                                 <div class="cmsmasters_img  cmsmasters_image_c"><img
-                                                            src="http://forma-eg.com/online_store/wp-content/uploads/2015/11/line.jpg"
+                                                            src="https://forma-eg.com/online_store/wp-content/uploads/2015/11/line.jpg"
                                                             alt="line"></div>
                                             </div>
                                             <div id="cmsmasters_divider_8822985bfb" class="cl"></div>
@@ -794,8 +794,8 @@
                                                             <div class="sbi_photo_wrap">
                                                                 <a class="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
                                                                    href="{{ $instgramChannle->url }}" target="_blank"
-                                                                   style="background-image: url({{ asset('http://storeback.forma-eg.com/images/instgramchannle/'.$instgramChannle->image) }}); background-size: cover; background-position: center center; background-repeat: no-repeat; height: 238px;">
-                                                                    <img src="{{ asset('http://storeback.forma-eg.com/images/instgramchannle/'.$instgramChannle->image) }}"
+                                                                   style="background-image: url({{ asset('https://storeback.forma-eg.com/images/instgramchannle/'.$instgramChannle->image) }}); background-size: cover; background-position: center center; background-repeat: no-repeat; height: 238px;">
+                                                                    <img src="{{ asset('https://storeback.forma-eg.com/images/instgramchannle/'.$instgramChannle->image) }}"
                                                                          alt="" style="display: none;" width="200"
                                                                          height="200">
                                                                 </a>
@@ -947,7 +947,7 @@
                                                      data-pagination="false" data-navigation="false">
                                                     @foreach($clients as $client)
                                                         <div class="cmsmasters_clients_item item cmsmasters_owl_slider_item">
-                                                            <img src="{{ asset('http://storeback.forma-eg.com/images/client/'.$client->logo) }}"
+                                                            <img src="{{ asset('https://storeback.forma-eg.com/images/client/'.$client->logo) }}"
                                                                  alt="{{ $client->title }}"
                                                                  title="{{ $client->title }}"/>
                                                         </div>

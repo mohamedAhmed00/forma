@@ -2,12 +2,12 @@
 
 namespace App\Http;
 
-use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Illuminate\Foundation\Http\Kernel as httpsKernel;
 
-class Kernel extends HttpKernel
+class Kernel extends httpsKernel
 {
     /**
-     * The application's global HTTP middleware stack.
+     * The application's global https middleware stack.
      *
      * These middleware are run during every request to your application.
      *
@@ -19,6 +19,13 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \App\Http\Middleware\TrustProxies::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\InlineCss::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\ElideAttributes::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\InsertDNSPrefetch::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\RemoveComments::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\TrimUrls::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\RemoveQuotes::class,
+        \RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace::class,
     ];
 
     /**
@@ -58,12 +65,10 @@ class Kernel extends HttpKernel
         'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
+        'cache.headers' => \Illuminate\Foundation\Http\Middleware\SetCacheHeaders::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'doctor' => \App\Http\Middleware\Doctor::class,
-        'gym' => \App\Http\Middleware\Gym::class
     ];
 }

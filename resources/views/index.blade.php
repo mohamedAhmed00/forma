@@ -1,940 +1,538 @@
-<!DOCTYPE html>
-<html lang="zxx" style="background: #FFF;">
-<head>
-    <title>Forma : Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Fitness Freak website"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <!-- Custom Theme files -->
-    <link href="{{ asset('css/test.css') }}" type="text/css" rel="stylesheet" media="all">
-    <style>
+@extends('master')
+@section('content')
+@php
+    $page = 'home';
+@endphp
+    <div id="page" class="csstransition cmsmasters_liquid fixed_header cmsmasters_heading_after_header hfeed site">
 
-        .spot h6
-        {
-            padding: 10px;
-            margin-bottom: 0 !important;
-        }
-        .spot .owl-item
-        {
-            padding-bottom: 0 !important;
-        }
-        .banner-right-text
-        {
-            border-left:solid 3px #33ff00
-        }
-        .spot .grey
-        {
-            background: grey !important;
-        }
-        .spot .grey:hover
-        {
-            background: #33ff00 !important;
-            color: #000;
-        }
-#hr {
-    margin: 0;
-    margin-top: 0px;
-    padding: 0;
-    margin-top: 70px;
-    border-top:solid 2px #33ff00;
-    color:#33ff00;
-    background:#33ff00
-}
-
-.top-news h1
-{
-    margin-top: 0px;
-}
-
-.top-text img {
-    height: 330px !important;
-    width: 100%
-}
-        .b-bottom p {
-            color: #000
-        }
-        .general-text p, .top-text p
-        {
-            height: 60px;
-overflow: hidden;
-        }
-        .callbacks_tabs a::after {
-            content: "\f111";
-            font-size: 0;
-            font-family: FontAwesome;
-            visibility: visible;
-            display: block;
-            width: 14px;
-            height: 14px;
-            display: block;
-            background: #000;
-            display: inline-block;
-            border: none;
-            border-radius: 50%;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -o-border-radius: 50%;
-            -ms-border-radius: 50%;
-        }
-
-        .callbacks_tabs {
-            list-style: none;
-            position: absolute;
-            top: -10%;
-            right: 15%;
-            padding: 0;
-            margin: 0;
-            display: block;
-        }
-
-        .callbacks_tabs li {
-            display: inline-block;
-            margin: 0 .3em;
-        }
-
-        .callbacks_tabs a {
-            visibility: hidden;
-        }
-
-        .callbacks_here a:after {
-            background: #33ff00;
-        }
-        @media only screen and (min-width: 220px) {
-            #page.fixed_header #header {
-                height: 110px !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap
-            {
-                bottom: 15px;
-            }
-            .cmsmasters_product:hover .button_to_cart_wrap
-            {
-                bottom: 0px !important;
-            }
-            ul.navigation > li > a
-            {
-                color:#fff !important;
-            }
-            #header .header_mid_inner img
-            {
-                display: none;
-            }
-            .tp-caption img
-            {
-                width: 180.656px !important;
-                height: 100.531px !important;
-                left: 92px !important;
-                top: 327px !important;
-            }
-            h3.tittle
-            {
-                margin-bottom: 45px;
-                font-size: 2.6em;
-            }
-            .banner-right-text {
-                border-left: none;
-            }
-            #header
-            {
-                background:url("{{ asset('images/facebookcover2.png') }}");
-                background-size: 100% 100%;
-            }
-            #header .header_top, .header_mid
-            {
-                background: none;
-            }
-            #header .header_mid .resp_mid_nav_wrap
-            {
-                left: initial !important;
-                right: 20px !important;
-                position: absolute;
-            }
-            #header .header_mid .header_mid_inner
-            {
-                position: relative;
-            }
-            .rslides img
-            {
-                width:100%
-            }
-        }
-        @media only screen and (min-width: 320px) {
-            #page.fixed_header #header {
-                height: 110px !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap
-            {
-                bottom: 15px;
-            }
-            .cmsmasters_product:hover .button_to_cart_wrap
-            {
-                bottom: 0px !important;
-            }
-            ul.navigation > li > a
-            {
-                color:#fff !important;
-            }
-            .tp-caption img
-            {
-                width: 180.656px !important;
-                height: 100.531px !important;
-                left: 92px !important;
-                top: 327px !important;
-            }
-            h3.tittle
-            {
-                margin-bottom: 45px;
-                font-size: 2.6em;
-            }
-            .banner-right-text {
-                border-left: none;
-            }
-            #header
-            {
-                background:url("{{ asset('images/facebookcover2.png') }}");
-                background-size: 100% 100%;
-            }
-            #header .header_top, .header_mid
-            {
-                background: none;
-            }
-            #header .header_mid .resp_mid_nav_wrap
-            {
-                left: initial !important;
-                right: 20px !important;
-                position: absolute;
-            }
-            #header .header_mid .header_mid_inner
-            {
-                position: relative;
-            }
-        }
-
-        @media only screen and (min-width: 480px) {
-            #page.fixed_header #header {
-                height: 120px !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap
-            {
-                bottom: -50px;
-            }
-            .cmsmasters_product:hover .button_to_cart_wrap
-            {
-                bottom: 0px !important;
-            }
-            ul.navigation > li > a
-            {
-                color:#fff !important;
-            }
-            .tp-caption img
-            {
-                width: 180.656px !important;
-                height: 100.531px !important;
-                left: 92px !important;
-                top: 327px !important;
-            }
-            h3.tittle
-            {
-                margin-bottom: 45px;
-                font-size: 2.6em;
-            }
-            .banner-right-text {
-                border-left: none;
-            }
-            #header
-            {
-                background:url("{{ asset('images/facebookcover2.png') }}");
-                background-size: 100% 100%;
-            }
-            #header .header_top, .header_mid
-            {
-                background: none;
-            }
-            #header .header_mid .resp_mid_nav_wrap
-            {
-                left: initial !important;
-                right: 20px !important;
-                position: absolute;
-            }
-            #header .header_mid .header_mid_inner
-            {
-                position: relative;
-            }
-        }
-
-        @media only screen and (min-width: 768px) {
-            #page.fixed_header #header {
-                height: 110px !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap
-            {
-                bottom: -50px;
-            }
-            .cmsmasters_product:hover .button_to_cart_wrap
-            {
-                bottom: 0px !important;
-            }
-            ul.navigation > li > a
-            {
-                color:#fff !important;
-            }
-            .tp-caption img
-            {
-                width: 347.656px !important;
-                height: 194.531px !important;
-                left: 92px !important;
-                top: 327px !important;
-            }
-            h3.tittle
-            {
-                margin-bottom: 45px;
-                font-size: 2.6em;
-            }
-            .banner-right-text {
-                border-left: none;
-            }
-            #header
-            {
-                background:none;
-                background-size: 100% 100%;
-            }
-            #header .header_top, .header_mid
-            {
-                background: none;
-            }
-            #header .header_mid .resp_mid_nav_wrap
-            {
-                left: initial !important;
-                right: 40px !important;
-                position: absolute;
-                top: 10px;
-            }
-            #header .header_mid
-            {
-                height: 100%;
-            }
-            #header .header_mid .header_mid_inner
-            {
-                position: relative;
-            }
-            .header_mid
-            {
-                height: 100%;
-            }
-            .header_mid_outer
-            {
-                height: 100%;
-            }
-            #header .mid_nav_wrap nav
-            {
-                display: inline-block;
-            }
-            #header .header_mid_inner img
-            {
-                display: inline-block;
-                width: 100px;
-                height: 90px;
-                margin-top: 3px;
-                float: left;
-                margin-left: 40px;
-            }
-
-
-        }
-
-        @media only screen and (min-width: 992px) {
-            #page.fixed_header #header {
-                height: 130px !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap
-            {
-                bottom: -50px;
-            }
-            .cmsmasters_product:hover .button_to_cart_wrap
-            {
-                bottom: 0px !important;
-            }
-            ul.navigation > li > a
-            {
-                color:#000 !important;
-            }
-            .banner-right-text {
-                border-left: solid 3px #33ff00;
-            }
-            #header .mid_nav_wrap nav
-            {
-                display: inline-block;
-            }
-            #header .header_mid_inner img
-            {
-                display: inline-block;
-                width: 210px;
-                height: 130px;
-                margin-top: 3px;
-                float: left;
-                margin-left: 40px;
-            }
-        }
-
-        @media only screen and (min-width: 1200px) {
-            #page.fixed_header #header {
-                height: 130px !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap
-            {
-                bottom: -63px;
-            }
-            .cmsmasters_product:hover .button_to_cart_wrap
-            {
-                bottom: 0px !important;
-            }
-
-            .button_to_cart_wrap, .button_to_cart_wrap a
-            {
-                margin-top: 0 !important;
-            }
-            .cmsmasters_product .button_to_cart_wrap:hover
-            {
-                bottom: 0px !important;
-
-            }
-            ul.navigation > li > a
-            {
-                color:#000 !important;
-            }
-            .header_mid
-            {
-                height: 90px;background: none
-            }
-            #header .mid_nav_wrap nav
-            {
-                display: inline-block;
-            }
-            #header .header_mid_inner img
-            {
-                display: inline-block;
-                width: 350px;
-                height: 130px;
-                margin-top: 3px;
-                float: left;
-                margin-left: 40px
-            }
-        }
-        .cmsmasters_product .cmsmasters_product_title a:hover
-        {
-            color:#33ff00;
-        }
-        .cmsmasters_product_cat a
-        {
-            color:#000;
-        }
-        .cmsmasters_product_cat a:hover
-        {
-            color:#33ff00;
-        }
-        .cmsmasters_star_rating
-        {
-            height:25px
-        }
-        .cmsmasters_star_rating .cmsmasters_star_trans_wrap
-        {
-            height: 25px;
-        }
-        .owl-page.active
-        {
-            background-color:#33ff00 !important;
-        }
-        .read_more:hover
-        {
-            background-color:#33ff00 !important;
-            color:#FFF !important;
-            border-color: #5fd447 !important;
-        }
-        .text-left a
-        {
-            border: solid 2px #000;
-        }
-        .text-left
-        {
-            margin-top: 20px;
-        }
-        .text-left a:hover
-        {
-            background-color:#33ff00 !important;
-            color:#FFF !important;
-        }
-        .cmsmasters_product .button_to_cart_wrap .added_to_cart, .cmsmasters_product .button_to_cart_wrap .button, .woocommerce-store-notice, .woocommerce-store-notice p a, .woocommerce-store-notice p a:hover
-        {
-            color:#000 !important;
-        }
-        .owl-carousel2 .owl-pagination
-        {
-            display: none;
-        }
-        body,.owl-carousel2
-        {
-            overflow-x: hidden !important;
-        }
-        .owl-carousel2 .owl-next
-        {
-            float: right;
-            width: 50%;
-            margin: 20px auto;
-
-        }
-        .owl-carousel2 .owl-prev
-        {
-            float: left;
-            width: 50%;
-            margin: 20px auto;
-            text-align: right;
-        }
-        .owl-carousel2 .owl-buttons
-        {
-            display: block;
-        }
-        .owl-carousel2 button
-        {
-            background: #65d54e;
-            margin: 10px;
-        }
-        .owl-carousel2 button:hover
-        {
-            background: #000;
-        }
-      *  ::-moz-selection {
-            color: #000 !important;
-        }
-
-       * ::-o-selection {
-            color: #000 !important;
-        }
-       * ::-webkit-selection{
-            color: #000 !important;
-        }
-        *::selection{
-            color: #000 !important;
-        }
-    </style>
-    <script src="{{ asset('latest_news/js/jquery.min.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
-    <script type='text/javascript'>
-        /* <![CDATA[ */
-        var LS_Meta = {"v": "6.7.6"};
-        /* ]]> */
-    </script>
-
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0') }}'></script>
-
-
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery7a2d.js?ver=6.7.6') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions7a2d.js?ver=6.7.6') }}'></script>
-    <script type='text/javascript'>
-        /* <![CDATA[ */
-        var cnArgs = {
-            "ajaxurl": "http:\/\/sports-store.cmsmasters.net\/wp-admin\/admin-ajax.php",
-            "hideEffect": "fade",
-            "onScroll": "",
-            "onScrollOffset": "100",
-            "cookieName": "cookie_notice_accepted",
-            "cookieValue": "true",
-            "cookieTime": "2592000",
-            "cookiePath": "\/",
-            "cookieDomain": ".sports-store.cmsmasters.net",
-            "redirection": "",
-            "cache": "",
-            "refuse": "no",
-            "revoke_cookies": "0",
-            "revoke_cookies_opt": "automatic",
-            "secure": "0"
-        };
-        /* ]]> */
-    </script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/plugins/cookie-notice/js/front.minfe9e.js?ver=1.2.44') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min26ce.js?ver=5.4.7.4') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min26ce.js?ver=5.4.7.4') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/themes/sports-store/js/debounced-resize.min8a54.js?ver=1.0.0') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/themes/sports-store/js/modernizr.min8a54.js?ver=1.0.0') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/themes/sports-store/js/respond.min8a54.js?ver=1.0.0') }}'></script>
-    <script type='text/javascript'
-            src='{{ asset('online_store/wp-content/themes/sports-store/js/jquery.iLightBox.min3601.js?ver=2.2.0') }}'></script>
-    <script type="text/javascript">function setREVStartSize(e) {
-            try {
-                e.c = jQuery(e.c);
-                var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
-                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
-                    f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-                }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
-                    var u = (e.c.width(), jQuery(window).height());
-                    if (void 0 != e.fullScreenOffsetContainer) {
-                        var c = e.fullScreenOffsetContainer.split(",");
-                        if (c) jQuery.each(c, function (e, i) {
-                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
-                    }
-                    f = u
-                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-                e.c.closest(".rev_slider_wrapper").css({height: f})
-            } catch (d) {
-                console.log("Failure at Presize of Slider:" + d)
-            }
-        };</script>
-    <script type="text/javascript" src="{{ asset('online_store/wp-content/js1.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('online_store/wp-content/js2.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('online_store/wp-content/js3.js') }}"></script>
-    <script src="{{ asset('online_store/wp-content/js1.js') }}"></script>
-
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-</head>
-<body style="background: #FFF !important;">
-{{--<div id="cont">--}}
-{{--<h1 class="loading">Forma...</h1>--}}
-{{--</div>--}}
-{{--<script>--}}
-{{--$(".loading").lettering();--}}
-{{--window.onload=function() {--}}
-{{--$("#cont").fadeOut(1000);--}}
-{{--}--}}
-{{--</script>--}}
-
-<div id="page" class="csstransition cmsmasters_liquid fixed_header cmsmasters_heading_after_header hfeed site">
-
-    <!--  Start Main  -->
-    <div id="main">
-        @include('templates.header')
-        <div id="middle">
-            <div class="headline cmsmasters_color_scheme_default">
-                <div class="headline_outer cmsmasters_headline_disabled">
-                    <div class="headline_color"></div>
+        <!--  Start Main  -->
+        <div id="main">
+            <div id="middle">
+                <div class="headline cmsmasters_color_scheme_default">
+                    <div class="headline_outer cmsmasters_headline_disabled">
+                        <div class="headline_color"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="middle_inner" style="width: 100%;overflow-x: hidden">
-                <div class="content_wrap fullwidth">
+                <div class="middle_inner" style="width: 100%;overflow-x: hidden">
+                    <div class="content_wrap fullwidth">
 
-                    <!--  Start Content  -->
-                    <div class="middle_content entry"></div>
-                </div>
-                @include('online_store.template.slider')
-                <div id="cmsmasters_row_0e87e24473"
-                     class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
-                    <div class="cmsmasters_row_outer_parent">
-                        <div class="cmsmasters_row_outer">
-                            <div class="cmsmasters_row_inner" style="width:100%">
-                                <div class="cmsmasters_row_margin">
-                                    <div id="cmsmasters_column_85b764ab5e" class="cmsmasters_column one_first">
-                                        <div class="cmsmasters_column_inner">
-                                            <div id="cmsmasters_heading_084db936ef"
-                                                 class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
-                                                <h3 class="cmsmasters_heading"
-                                                    style="font-family: 'Roboto Condensed', Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;font-size: 45px;">
-                                                    Activities</h3>
-                                            </div>
-                                            <div class="aligncenter">
-                                                <div class="cmsmasters_img  cmsmasters_image_c">
-                                                    <hr style="background:#33ff00;height: 5px;width:55px;margin: 16px 0;">
-                                                </div>
-                                            </div>
-                                            <div id="cmsmasters_divider_3e5628a53d" class="cl"></div>
-                                            <div class="cmsmasters_selected_products_shortcode">
-                                                <div class="woocommerce columns-4 ">
-                                                    <div class="cmsmasters_products_wrap">
-                                                        <ul class="products columns-4 cmsmasters_products">
-                                                            @foreach($activities as $activity)
-                                                                <li class="post-13499 product type-product status-publish has-post-thumbnail product_cat-for-men product_cat-t-shirts product_tag-clothing product_tag-men product_tag-sports product_tag-t-shirts instock shipping-taxable purchasable product-type-variable">
-                                                                    <article class="cmsmasters_product">
-                                                                        <figure class="cmsmasters_product_img">
-                                                                            <a href="{{ url('activity/'.$activity->id) }}">
-                                                                                <img width="540" height="540"
-                                                                                     style="height: 300px"
-                                                                                     src="https://adminhome.forma-eg.com/{{$activity->img_main }}"
-                                                                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
-                                                                                     sizes="(max-width: 540px) 100vw, 540px"/>
-                                                                            </a>
-                                                                            <div class="button_to_cart_wrap">
-                                                                                <a rel="nofollow"
-                                                                                   href="{{ url('activity/'.$activity->id) }}"
-                                                                                   data-quantity="1"
-                                                                                   data-product_id="13499"
-                                                                                   data-product_sku=""
-                                                                                   class="button product_type_variable add_to_cart_button cmsmasters_add_to_cart_button"
-                                                                                   style="background: #33ff00;font-size: 26px;line-height: 35px;">{{ $activity->activites_type }}</a>
-                                                                            </div>
-                                                                        </figure>
-                                                                    </article>
+                        <!--  Start Content  -->
+                        <div class="middle_content entry"></div>
+                    </div>
+                    <div id="cmsmasters_row_9e965e43f4"
+                         class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+                                    <div class="cmsmasters_row_margin">
+                                        <div id="cmsmasters_column_54b6baf68c" class="cmsmasters_column one_first">
+                                            <div class="cmsmasters_column_inner">
+                                                <div class="cmsmasters_slider">
+                                                    <div id="rev_slider_1_1_wrapper"
+                                                         class="rev_slider_wrapper fullwidthbanner-container"
+                                                         data-source="gallery"
+                                                         style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                                                        <!-- START REVOLUTION SLIDER 5.4.8.1 auto mode -->
+                                                        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner"
+                                                             style="display:none;" data-version="5.4.8.1">
+                                                            <ul>    <!-- SLIDE  -->
+                                                                <li data-index="rs-1" data-transition="fade"
+                                                                    data-slotamount="default" data-hideafterloop="0"
+                                                                    data-hideslideonmobile="off" data-easein="default"
+                                                                    data-easeout="default" data-masterspeed="300"
+                                                                    data-thumb="https://www.forma-eg.com/images/slider/26b2e27c383d9e0436d51f33b26eda01.jpg"
+                                                                    data-rotate="0" data-saveperformance="off"
+                                                                    data-title="Slide" data-param1="" data-param2=""
+                                                                    data-param3="" data-param4="" data-param5=""
+                                                                    data-param6="" data-param7="" data-param8=""
+                                                                    data-param9="" data-param10="" data-description="">
+                                                                    <!-- MAIN IMAGE -->
+                                                                    <img src="https://www.forma-eg.com/images/slider/26b2e27c383d9e0436d51f33b26eda01.jpg"
+                                                                         alt="" title="1" width="1920" height="603"
+                                                                         data-bgposition="10% 0%" data-bgfit="cover"
+                                                                         data-bgrepeat="no-repeat" class="rev-slidebg"
+                                                                         data-no-retina>
+                                                                    <!-- LAYERS -->
+
+                                                                    <!-- LAYER NR. 1 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-1-layer-1"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['545','285','91','52']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['97','165','94','35']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
+
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
+
+                                                                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
+
+                                                                        style="z-index: 5; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        TAKE<br>
+                                                                        A WALK <br>
+                                                                        TO </h2>
+
+                                                                    <!-- LAYER NR. 2 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-1-layer-3"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['1130','744','501','295']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['300','433','380','398']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
+
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
+
+                                                                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
+
+                                                                        style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        SIDE </h2>
+
+                                                                    <!-- LAYER NR. 3 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-1-layer-5"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['857','493','270','152']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['473','608','516','612']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
+
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
+
+                                                                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
+
+                                                                        style="z-index: 7; white-space: nowrap; font-size: 30px; line-height: 30px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        TAKE THIS WAY </h2>
+
+                                                                    <!-- LAYER NR. 4 -->
+                                                                    <div class="tp-caption   tp-resizeme"
+                                                                         id="slide-1-layer-7"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['710','370','147','12']"
+                                                                         data-y="['top','top','top','top']"
+                                                                         data-voffset="['107','249','170','198']"
+                                                                         data-width="none"
+                                                                         data-height="none"
+                                                                         data-whitespace="nowrap"
+
+                                                                         data-type="image"
+                                                                         data-responsive_offset="on"
+
+                                                                         data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 8;"><img
+                                                                                src="https://www.forma-eg.com/images/slider/deb9142f73b41ae680dda97df34b948c.png"
+                                                                                alt=""
+                                                                                data-ww="['528px','528px','528px','439px']"
+                                                                                data-hh="['309px','309px','309px','257px']"
+                                                                                width="528" height="309" data-no-retina>
+                                                                    </div>
                                                                 </li>
-                                                            @endforeach
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                                                                <!-- SLIDE  -->
+                                                                <li data-index="rs-2" data-transition="fade"
+                                                                    data-slotamount="default" data-hideafterloop="0"
+                                                                    data-hideslideonmobile="off" data-easein="default"
+                                                                    data-easeout="default" data-masterspeed="300"
+                                                                    data-thumb="https://www.forma-eg.com/images/slider/3679cc153091e8290fb13d57547c86ca.jpg"
+                                                                    data-rotate="0" data-saveperformance="off"
+                                                                    data-title="Slide" data-param1="" data-param2=""
+                                                                    data-param3="" data-param4="" data-param5=""
+                                                                    data-param6="" data-param7="" data-param8=""
+                                                                    data-param9="" data-param10="" data-description="">
+                                                                    <!-- MAIN IMAGE -->
+                                                                    <img src="https://www.forma-eg.com/images/slider/3679cc153091e8290fb13d57547c86ca.jpg"
+                                                                         alt="" title="slide-2" width="1920"
+                                                                         height="603"
+                                                                         data-bgposition="40% 0%" data-bgfit="cover"
+                                                                         data-bgrepeat="no-repeat" class="rev-slidebg"
+                                                                         data-no-retina>
+                                                                    <!-- LAYERS -->
 
-<div id="box" style="padding-top: 10px ">
-    <a href="{{ url('onlinestore') }}">
-        <div class="text-center">
-            <h3 class="cmsmasters_heading"
-                style="font-style:italic;font-family: 'Roboto Condensed', Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;font-size: 50px;">
-                Sport Store</h3>
-            <a href="{{ url('onlinestore') }}">
-                <button type="button" style="background: #000;color:#FFF;margin:0;font-weight: bold;padding-top: 8px;"
-                        class="btn btn-default get">
-                    Shop Now
-                </button>
-            </a>
-            <p style="font-family: Calibri;font-size: 24px;color:#54524f;font-weight: bold ;margin-bottom: -15px;">you
-                order, we deliver!</p></div>
-        <h2 class="text-capitalize text-center"
-            style="margin-top:0;color: #000;font-weight: bold;font-size: 24px;margin-bottom: -35px;font-family: 'Roboto Condensed', Arial, Helvetica, 'Nimbus Sans L', sans-serif;">
-            FEATURED PRODUCT</h2>
-        <hr class="hr-store" style="margin-top: 40px;">
-    </a>
-    <div id="online-store" style="padding-top: 5px;background: none;">
+                                                                    <!-- LAYER NR. 5 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-2-layer-1"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['910','294','217','50']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['85','174','71','281']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
 
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
 
-        <div id="page" class="csstransition cmsmasters_liquid fixed_header cmsmasters_heading_after_header hfeed site"
-             style="background: none;">
-            <!--  Start Main  -->
-            <div id="main" style="background: none;">
-                <!--  Start Middle  -->
-                <div id="middle" style="background: none;">
-                    <div class="middle_inner" style="background: none;">
-                        <div id="cmsmasters_row_533cea71e2" style="background: none;"
-                             class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
-                            <div class="cmsmasters_row_outer_parent" style="background: none;">
-                                <div class="cmsmasters_row_outer" style="background: none;">
-                                    <div class="cmsmasters_row_inner" style="background: none;">
-                                        <div class="cmsmasters_row_margin">
-                                            <div id="cmsmasters_column_d5e166fd8a" class="cmsmasters_column one_first">
-                                                <div class="cmsmasters_column_inner">
-                                                    <div class="cmsmasters_posts_slider cmsmasters_posts_slider_product">
-                                                        <div id="cmsmasters_slider_3f171e76ab"
-                                                             class="cmsmasters_owl_slider owl-carousel" data-items="4"
-                                                             data-pagination="true" data-navigation="false"
-                                                             data-single-item="false" data-auto-play="10000">
-                                                            @foreach($featuredProducts as $product)
-                                                                <div class="cmsmasters_owl_slider_item"
-                                                                     style="height: 370px;">
-                                                                    <article
-                                                                            class="post-13743 product type-product status-publish has-post-thumbnail product_cat-shoes product_cat-sneakers product_cat-unisex product_tag-shoes product_tag-sneakers product_tag-unisex first instock shipping-taxable purchasable product-type-variable">
-                                                                        <div class="cmsmasters_product">
-                                                                            <figure class="cmsmasters_product_img">
-                                                                                <a href="{{ url('product/'.$product->id) }}">
-                                                                                    @php
-                                                                                        $details = $product->Images;
+                                                                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
 
-                                                                                    @endphp
-                                                                                    <img width="540" height="540"
-                                                                                         style="height: 250px"
-                                                                                         src="https://storeback.forma-eg.com/images/product/{{ isset($details[0]->image)? $details[0]->image : '' }}"
-                                                                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
-                                                                                         sizes="(max-width: 540px) 100vw, 540px"/>
-                                                                                    <img width="540" height="540"
-                                                                                         style="height: 250px"
-                                                                                         src="https://storeback.forma-eg.com/images/product/{{ isset($details[1]->image) ? $details[1]->image : isset($details[0]->image)? $details[0]->image : ''  }}"
-                                                                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
-                                                                                         sizes="(max-width: 540px) 100vw, 540px"/>
-                                                                                </a>
+                                                                        style="z-index: 5; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        YOU ARE </h2>
 
-                                                                            </figure>
-                                                                            <div class="cmsmasters_product_inner">
-                                                                                <header class="cmsmasters_product_header entry-header">
-                                                                                    <h5 class="cmsmasters_product_title entry-title">
-                                                                                        <a href="{{ url('product/'.$product->id) }}">{{ substr($product->title,0,23) }}</a>
-                                                                                    </h5>
-                                                                                </header>
-                                                                                <div class="cmsmasters_product_cat entry-meta">
-                                                                                    <a href="{{url('shop/cate/'.$product->category_id)}}"
-                                                                                       class="cmsmasters_cat_color cmsmasters_cat_73"
-                                                                                       rel="category tag">{{ substr($product->Category->title,0,12) }}</a>,
-                                                                                    <a href="{{url('shop/subcate/'.$product->subcategory_id)}}"
-                                                                                       class="cmsmasters_cat_color cmsmasters_cat_74"
-                                                                                       rel="category tag">{{ substr($product->SubCategory->title,0,12) }}</a>
-                                                                                </div>
-                                                                                <div class="cmsmasters_product_info">
-                                                                            <span class="price"><span
-                                                                                        class="woocommerce-Price-amount amount"><span><span
-                                                                                                class="woocommerce-Price-currencySymbol">L.E </span></span>{{ $product->price }}</span></span>
-                                                                                    <div class="cmsmasters_star_rating"
-                                                                                         itemscope
-                                                                                         itemtype="https://schema.org/AggregateRating"
-                                                                                         title="Rated 5.00 out of 5">
-                                                                                        <div class="cmsmasters_star_trans_wrap">
-                                                                                            @for($i=0;$i < 5;$i++)
-                                                                                                @if($i > $product->rating)
+                                                                    <!-- LAYER NR. 6 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-2-layer-2"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['940','330','249','82']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['165','255','139','352']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
 
-                                                                                                    <i class="fa fa-star-o" style="font-size: 10px;color: #ff8f00;" aria-hidden="true"></i>
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
 
-                                                                                                @else
-                                                                                                    <i class="fa fa-star" aria-hidden="true" style="font-size: 10px;color: #ff8f00;"></i>
+                                                                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
 
+                                                                        style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        YOUR ONLY </h2>
 
-                                                                                                @endif
-                                                                                            @endfor
+                                                                    <!-- LAYER NR. 7 -->
+                                                                    <div class="tp-caption   tp-resizeme"
+                                                                         id="slide-2-layer-3"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['985','394','242','26']"
+                                                                         data-y="['top','top','top','top']"
+                                                                         data-voffset="['195','272','182','389']"
+                                                                         data-width="none"
+                                                                         data-height="none"
+                                                                         data-whitespace="nowrap"
 
-                                                                                        </div>
-                                                                                        <span class="rating dn" ><strong
-                                                                                                    itemprop="ratingValue">5.00</strong> out of 5</span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </article>
-                                                                </div>
-                                                            @endforeach
+                                                                         data-type="image"
+                                                                         data-responsive_offset="on"
+
+                                                                         data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 7;"><img
+                                                                                src="https://www.forma-eg.com/images/slider/4e3dc89688efdc260bdb949c6ce47aec.png"
+                                                                                alt=""
+                                                                                data-ww="['529px','529px','529px','445px']"
+                                                                                data-hh="['296px','296px','296px','249px']"
+                                                                                width="529" height="296" data-no-retina>
+                                                                    </div>
+
+                                                                    <!-- LAYER NR. 8 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-2-layer-4"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['1080','578','388','57']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['530','682','551','669']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
+
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
+
+                                                                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
+
+                                                                        style="z-index: 8; white-space: nowrap; font-size: 22px; line-height: 22px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        THE REVOLUTION BEGINS WITH JOGGING </h2>
+                                                                </li>
+                                                                <!-- SLIDE  -->
+                                                                <li data-index="rs-3" data-transition="fade"
+                                                                    data-slotamount="default" data-hideafterloop="0"
+                                                                    data-hideslideonmobile="off" data-easein="default"
+                                                                    data-easeout="default" data-masterspeed="300"
+                                                                    data-thumb="https://www.forma-eg.com/images/slider/4ee5c366bc1f593023a695f80b315c75.jpg"
+                                                                    data-rotate="0" data-saveperformance="off"
+                                                                    data-title="Slide" data-param1="" data-param2=""
+                                                                    data-param3="" data-param4="" data-param5=""
+                                                                    data-param6="" data-param7="" data-param8=""
+                                                                    data-param9="" data-param10="" data-description="">
+                                                                    <!-- MAIN IMAGE -->
+                                                                    <img src="https://www.forma-eg.com/images/slider/4ee5c366bc1f593023a695f80b315c75.jpg"
+                                                                         alt="" title="slide-3" width="1920"
+                                                                         height="603"
+                                                                         data-bgposition="65% 0%" data-bgfit="cover"
+                                                                         data-bgrepeat="no-repeat" class="rev-slidebg"
+                                                                         data-no-retina>
+                                                                    <!-- LAYERS -->
+
+                                                                    <!-- LAYER NR. 9 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-3-layer-2"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['395','65','65','12']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['115','155','155','39']"
+                                                                        data-fontsize="['60','60','60','50']"
+                                                                        data-lineheight="['70','70','70','60']"
+                                                                        data-width="['none','none','none','530']"
+                                                                        data-height="['none','none','none','141']"
+                                                                        data-whitespace="nowrap"
+
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
+
+                                                                        data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
+
+                                                                        style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 70px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        RUN FAST, RUN SLOW<br>
+                                                                        RUN FAR, RUN CLOSE </h2>
+
+                                                                    <!-- LAYER NR. 10 -->
+                                                                    <h2 class="tp-caption   tp-resizeme"
+                                                                        id="slide-3-layer-3"
+                                                                        data-x="['left','left','left','left']"
+                                                                        data-hoffset="['635','399','399','123']"
+                                                                        data-y="['top','top','top','top']"
+                                                                        data-voffset="['425','451','451','318']"
+                                                                        data-width="none"
+                                                                        data-height="none"
+                                                                        data-whitespace="nowrap"
+
+                                                                        data-type="text"
+                                                                        data-responsive_offset="on"
+
+                                                                        data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                        data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                        data-paddingtop="[0,0,0,0]"
+                                                                        data-paddingright="[0,0,0,0]"
+                                                                        data-paddingbottom="[0,0,0,0]"
+                                                                        data-paddingleft="[0,0,0,0]"
+
+                                                                        style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
+                                                                        THE REVOLUTION BEGINS WITH JOGGING </h2>
+
+                                                                    <!-- LAYER NR. 11 -->
+                                                                    <div class="tp-caption   tp-resizeme"
+                                                                         id="slide-3-layer-1"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['385','50','50','16']"
+                                                                         data-y="['top','top','top','top']"
+                                                                         data-voffset="['223','254','254','178']"
+                                                                         data-width="none"
+                                                                         data-height="none"
+                                                                         data-whitespace="nowrap"
+
+                                                                         data-type="image"
+                                                                         data-responsive_offset="on"
+
+                                                                         data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 7;"><img
+                                                                                src="https://www.forma-eg.com/images/slider/08b0ee16f2806165db76fa9040e657a6.png"
+                                                                                alt=""
+                                                                                data-ww="['681px','681px','681px','437px']"
+                                                                                data-hh="['187px','187px','187px','120px']"
+                                                                                width="681" height="187" data-no-retina>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+
+                                                            <div class="tp-bannertimer tp-bottom"
+                                                                 style="visibility: hidden !important;"></div>
                                                         </div>
-                                                    </div>
-                                                </div>
+
+                                                    </div><!-- END REVOLUTION SLIDER --></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
-
-</div>
-
-<div class="container-fluidr spot">
-    <h1 class="text-center">Spots</h1>
-    <div class="owl-carousel owl-theme owl-carousel2">
-        @foreach($newsCategory as $category)
-            <div class="item">
-                <a href="{{ url('subcategory/'.$category->id) }}">
-                    <img src="{{ url('https://adminhome.forma-eg.com/'.$category->newscmsimage)  }}" alt="">
-                    <h6>{{ substr($category->newscmscategoy,0,50) }}</h6>
-                </a>
-            </div>
-        @endforeach
-    </div>
-</div>
-
-
-
-<div class="clearfix"></div>
-<div id="app" style="width: 100%;overflow-x:hidden ">
-    <h1>forma app</h1>
-    <div class="container" style="background: none">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="col-sm-3 hidden-xs"></div>
-                <div class="col-sm-3 col-xs-6">
-                    <img class="img-responsive" src="{{ asset('images/mobile.png') }}" alt="">
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <h2 style="color:#000">available on</h2>
-                    <img class=" img-responsive" src="{{ asset('images/footer_bg.png') }}" alt="">
-                    <a href="https://play.google.com/store/apps/details?id=com.nevdia.forma"><img class=" img-responsive" src="{{ asset('images/googleplay.png') }}" alt=""></a>
-                    <a href="https://itunes.apple.com/eg/app/forma-app/id1446006836?mt=8"><img class=" img-responsive" src="{{ asset('images/appstore.png') }}" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="footer"
-     style="">
-    <div class="container" style="background: none">
-        <div style="margin-bottom: 20px;" id="sub">
+    <section class="activities">
+        <div class="container-fluid">
             <div class="row">
-
-                <div class="col-sm-6" id="join-forma">
-                    <h2 class="text-capitalize text-center">sing up to Forma</h2>
-                    <h1 class="text-capitalize text-center">Join Our Forma</h1>
+                <div class="col">
+                    <h1 class="h1 text-center text-uppercase font-weight-bold py-5 head"><span
+                                class="pb-1">Activity</span>
+                    </h1>
                 </div>
-                <div class="col-sm-6">
-                    <a href="https://docs.google.com/forms/d/1MFOe3srrW6J6P7bG5PKiia0TBev0srHYmlG3a_NSyN0/prefill"
-                       class="join-forma-btn" type="button">Join Forma</a>
+            </div>
+            <div class="row">
+                @foreach($activities as $activity)
+                    <div class="col-md-3 mb-4">
+                        <div class="activity">
+                            <a href="{{ url('activity/'.$activity->id) }}">
+                                <img class="img-fluid lozad" data-src="{{ url(!empty($activity->img_main) ? 'https://adminhome.forma-eg.com/'.$activity->img_main : asset('imgs/not_found.png'))  }}" alt="">
+                            </a>
+                            <div class="name">
+                                <a class="text-center text-uppercase font-weight-bold d-block py-2"
+                                   href="{{ url('activity/'.$activity->id) }}">{{ $activity->activites_type }}</a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <section class="sportstore mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mb-5">
+                    <h1 class="h1 text-center text-uppercase font-weight-bold d-block font-italic my-3">Sport Store</h1>
+                    <div class="text-center my-3">
+                        <a href="{{ url('onlinestore') }}"
+                           class="btn btn-dark text-white title-btn font-weight-bold text-uppercase">shop now</a>
+                    </div>
+
+                    <h4 class="h4 text-center text-uppercase font-weight-bold d-block text-dark my-3">you order, we
+                        deliver!</h4>
+                    <h3 class="h3 text-center text-uppercase font-weight-bold d-block my-3"><span class="pb-1">FEATURED PRODUCT </span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row sportstore_slider owl-carousel owl-theme">
+                @foreach($featuredProducts as $product)
+                    <div class="w-100 m-0 px-2">
+                        <div class="p-3 product">
+                            <figure>
+                                <a href="{{ url('product/'.$product->id) }}">
+                                    @php
+                                        $details = $product->Images;
+                                    @endphp
+                                    <img class="img-fluid lozad"
+                                         data-src="{{ url(!empty($details[0]) ? 'https://storeback.forma-eg.com/images/product/'.$details[0]->image : asset('imgs/not_found.png'))  }}"
+                                         alt="">
+                                </a>
+                            </figure>
+                            <div class="product-link">
+                                <h5 class="text-left text-uppercase font-weight-bold d-block my-3 ">
+                                    <a href="{{ url('product/'.$product->id) }}"
+                                       class="link">{{ substr($product->title,0,23) }}</a></h5>
+                                <h6 class="text-left text-uppercase font-weight-bold d-block my-3">
+                                    <a href="{{url('shop/cate/'.$product->category_id)}}"
+                                       class="link">{{ substr($product->Category->title,0,12) }}</a>,
+                                    <a href="{{url('shop/subcate/'.$product->subcategory_id)}}"
+                                       class="link">{{ substr($product->SubCategory->title,0,12) }}</a></h6>
+                                <h6 class="text-left text-uppercase font-weight-bold d-block my-3">{{ $product->price }}
+                                    L.E</h6>
+                                <div class="review">
+                                    @for($i=0;$i < 5;$i++)
+                                        @if($i > $product->rating)
+                                            <i class="far fa-star"></i>
+                                        @else
+                                            <i class="fas fa-star"></i>
+                                        @endif
+                                    @endfor
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <section class="spots">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="h1 text-center text-uppercase font-weight-bold py-5 head"><span class="pb-1">Spots</span>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row spot_slider owl-carousel owl-theme">
+                @foreach($newsCategory as $category)
+                    <div class="w-100 m-0 spot">
+                        <figure>
+                            <a href="{{ url('subcategory/'.$category->id) }}">
+                                <img class="img-fluid lozad" data-src="{{ url(!empty($category->newscmsimage) ? 'https://adminhome.forma-eg.com/'.$category->newscmsimage : asset('imgs/not_found.png'))  }}" alt="">
+                            </a>
+                        </figure>
+                        <div class="spot-link">
+                            <h6 class="text-center text-uppercase font-weight-bold d-block my-3 pb-3">
+                                <a class="link" href="{{ url('subcategory/'.$category->id) }}">{{ substr($category->newscmscategoy,0,50) }}</a></h6>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <sectopn id="forma-app" class="pb-3 d-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="h1 text-center text-uppercase font-weight-bold py-5 head"><span
+                                class="pb-1">forma app</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid lozad" data-src="{{ asset('imgs/mobile.png') }}" alt="">
+                </div>
+                <div class="col-md-3  col-sm-6">
+                    <h4 class="h4 text-center text-uppercase font-weight-bold d-block my-3">available on</h4>
+                    <a href="https://play.google.com/store/apps/details?id=com.nevdia.forma">
+                        <img class="img-fluid mb-4 lozad" data-src="{{ asset('imgs/googleplay.png') }}" alt="">
+                    </a>
+                    <a href="https://itunes.apple.com/eg/app/forma-app/id1446006836?mt=8">
+                        <img class="img-fluid lozad" data-src="{{ asset('imgs/appstore.png') }}" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
                 </div>
             </div>
         </div>
-        <div id="footer_data">
-            <div class="col-md-5">
-                <img src="{{ asset('images/logo.png') }}" class="img-responsive" alt=""
-                     style="width: 80%;height: 272px;margin-left: 10%;">
-                <p>
-                    Forma is a new booming application that links all gyms and fitness centers all together as well as
-                    dietitians,
-                    nutritionists, slimming centers, physiotherapists, supplements and anything that has got to do with
-                    sports or fitness in one application.
-                </p>
-            </div>
-            <div class="col-md-7" style="margin-top: 250px" id="contact">
-                <div class="col-md-3 col-xs-6">
-                    <ul>
-                        <li>Contacts</li>
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">twitter</a></li>
-                        <li><a href="">google+</a></li>
-                        <li><a href="">pinterest</a></li>
-                        <li><a href="">linked in</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-9 col-xs-6">
-                    <ul>
-                        <li><span>Forma Info </span></li>
-                        <li><a href=""> <i class="fa fa-location-arrow"></i>
-                                52 El-Hussein, First Floor
-                                Ad Doqi, Giza Governorate.
-                            </a></li>
-                        <li><a href=""> <i class="fa fa-phone"></i> 01555550889</a></li>
-                        <li><a href=""> <i class="fa fa-mail-forward"></i> info@nevdia.com</a></li>
-                        <li><a href=""> <i class="fa fa-calendar"></i> Saturday-Wednesday : 10:00 AM-6:00 PM</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-@include('online_store/template/endPage')
-<script>
-    $(document).ready(function() {
-        $('.owl-carousel2').owlCarousel({
-            autoPlay : true,
-            navigation : true,
-            navigationText : ["<i class='fas fa-arrow-left' style='color: #000;font-size:30px;margin:10px'></i>","<i class='fas fa-arrow-right' style='color:#000;font-size:30px;margin:10px'></i>"],
-            rewindNav : true,
-            items : 5,
-            itemsDesktop : [1199,4],
-            itemsDesktopSmall : [980,3],
-            itemsTablet: [768,2],
-            itemsTabletSmall: false,
-            itemsMobile : [479,2],
-        });
-    })
-</script>
-</body>
-</html>
-
-
-
+    </sectopn>
+@endsection

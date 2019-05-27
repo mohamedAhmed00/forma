@@ -4,14 +4,14 @@ namespace App\Providers;
 
 use App\Repository\Eloquent\Forma\ActivityDetailElequent;
 use App\Repository\Eloquent\Forma\ActivityElequent;
-use App\Repository\Eloquent\Forma\AthleteElequent;
+use App\Repository\Eloquent\Forma\BaseElequent;
+use App\Repository\Eloquent\Forma\CategoryNewsElequent;
 use App\Repository\Eloquent\Forma\DietElequent;
-use App\Repository\Eloquent\Forma\GalleryElequent;
 use App\Repository\Eloquent\Forma\LocationElequent;
 use App\Repository\Eloquent\Forma\MembershipElequent;
 use App\Repository\Eloquent\Forma\NewsElequent;
 use App\Repository\Eloquent\Forma\ServiceElequent;
-use App\Repository\Eloquent\Forma\TrainerElequent;
+use App\Repository\Eloquent\Forma\SubCategoryNewsElequent;
 use App\Repository\Eloquent\Store\CartElequent;
 use App\Repository\Eloquent\Store\CategoryElequent;
 use App\Repository\Eloquent\Store\ClientElequent;
@@ -30,18 +30,18 @@ use App\Repository\Eloquent\Store\SubcategoryElequent;
 use App\Repository\Eloquent\Store\WishlistElequent;
 use App\Repository\Interfaces\Forma\ActivityDetailInterface;
 use App\Repository\Interfaces\Forma\ActivityInterface;
-use App\Repository\Interfaces\Forma\AthleteInterface;
-use App\Repository\Interfaces\Forma\GalleryInterface;
+use App\Repository\Interfaces\Forma\BaseInterface;
+use App\Repository\Interfaces\Forma\CategoryNewsInterface;
+use App\Repository\Interfaces\Forma\DietInterface;
 use App\Repository\Interfaces\Forma\LocationInterface;
 use App\Repository\Interfaces\Forma\MembershipInterface;
 use App\Repository\Interfaces\Forma\NewsInterface;
 use App\Repository\Interfaces\Forma\ServiceInterface;
-use App\Repository\Interfaces\Forma\TrainerInterface;
+use App\Repository\Interfaces\Forma\SubCategoryNewsInterface;
 use App\Repository\Interfaces\Store\CartInterface;
 use App\Repository\Interfaces\Store\CategoryInterface;
 use App\Repository\Interfaces\Store\ClientInterface;
 use App\Repository\Interfaces\Store\Comparinterface;
-use App\Repository\Interfaces\Store\DietInterface;
 use App\Repository\Interfaces\Store\FeatureInterface;
 use App\Repository\Interfaces\Store\FeeInterface;
 use App\Repository\Interfaces\Store\InstgramChannleInterface;
@@ -65,14 +65,12 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->app->bind(BaseInterface::class,BaseElequent::class);
         $this->app->bind(ActivityInterface::class,ActivityElequent::class);
-        $this->app->bind(AthleteInterface::class,AthleteElequent::class);
-        $this->app->bind(GalleryInterface::class,GalleryElequent::class);
         $this->app->bind(LocationInterface::class,LocationElequent::class);
         $this->app->bind(MembershipInterface::class,MembershipElequent::class);
         $this->app->bind(NewsInterface::class,NewsElequent::class);
         $this->app->bind(ServiceInterface::class,ServiceElequent::class);
-        $this->app->bind(TrainerInterface::class,TrainerElequent::class);
         $this->app->bind(ActivityDetailInterface::class,ActivityDetailElequent::class);
         $this->app->bind(CategoryInterface::class,CategoryElequent::class);
         $this->app->bind(ClientInterface::class,ClientElequent::class);
@@ -92,6 +90,8 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(OrderInterface::class,OrderElequent::class);
         $this->app->bind(FeeInterface::class,FeeElequent::class);
         $this->app->bind(DietInterface::class,DietElequent::class);
+        $this->app->bind(CategoryNewsInterface::class,CategoryNewsElequent::class);
+        $this->app->bind(SubCategoryNewsInterface::class,SubCategoryNewsElequent::class);
     }
 
     /**

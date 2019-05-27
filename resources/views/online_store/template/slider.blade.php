@@ -11,60 +11,78 @@
                                      class="rev_slider_wrapper fullwidthbanner-container"
                                      data-source="gallery"
                                      style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-                                    <!-- START REVOLUTION SLIDER 5.4.7.4 auto mode -->
+                                    <!-- START REVOLUTION SLIDER 5.4.8.1 auto mode -->
                                     <div id="rev_slider_1_1" class="rev_slider fullwidthabanner"
-                                         style="display:none;" data-version="5.4.7.4">
+                                         style="display:none;" data-version="5.4.8.1">
                                         <ul>    <!-- SLIDE  -->
                                             <li data-index="rs-1" data-transition="fade"
                                                 data-slotamount="default" data-hideafterloop="0"
                                                 data-hideslideonmobile="off" data-easein="default"
                                                 data-easeout="default" data-masterspeed="300"
-                                                data-thumb="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[0]->image1) }}"
+                                                data-thumb="{{ asset('images/slider/26b2e27c383d9e0436d51f33b26eda01.jpg') }}"
                                                 data-rotate="0" data-saveperformance="off"
                                                 data-title="Slide" data-param1="" data-param2=""
                                                 data-param3="" data-param4="" data-param5=""
                                                 data-param6="" data-param7="" data-param8=""
                                                 data-param9="" data-param10="" data-description="">
-                                                <img src="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[0]->image1) }}"
+                                                <!-- MAIN IMAGE -->
+                                                <img src="{{ asset('images/slider/26b2e27c383d9e0436d51f33b26eda01.jpg') }}"
                                                      alt="" title="1" width="1920" height="603"
                                                      data-bgposition="10% 0%" data-bgfit="cover"
                                                      data-bgrepeat="no-repeat" class="rev-slidebg"
                                                      data-no-retina>
+                                                <!-- LAYERS -->
+
+                                                <!-- LAYER NR. 1 -->
                                                 <h2 class="tp-caption   tp-resizeme"
                                                     id="slide-1-layer-1"
                                                     data-x="['left','left','left','left']"
                                                     data-hoffset="['545','285','91','52']"
                                                     data-y="['top','top','top','top']"
                                                     data-voffset="['97','165','94','35']"
-                                                    data-width="none" data-height="none"
+                                                    data-width="none"
+                                                    data-height="none"
                                                     data-whitespace="nowrap"
-                                                    data-type="text" data-responsive_offset="on"
+
+                                                    data-type="text"
+                                                    data-responsive_offset="on"
+
                                                     data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                                     data-textAlign="['inherit','inherit','inherit','inherit']"
                                                     data-paddingtop="[0,0,0,0]"
                                                     data-paddingright="[0,0,0,0]"
                                                     data-paddingbottom="[0,0,0,0]"
                                                     data-paddingleft="[0,0,0,0]"
+
                                                     style="z-index: 5; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                    <?= $sliders[0]->title ?>
-                                                </h2>
+                                                    TAKE<br>
+                                                    A WALK <br>
+                                                    TO </h2>
+
+                                                <!-- LAYER NR. 2 -->
                                                 <h2 class="tp-caption   tp-resizeme"
                                                     id="slide-1-layer-3"
                                                     data-x="['left','left','left','left']"
                                                     data-hoffset="['1130','744','501','295']"
                                                     data-y="['top','top','top','top']"
                                                     data-voffset="['300','433','380','398']"
-                                                    data-width="none" data-height="none"
+                                                    data-width="none"
+                                                    data-height="none"
                                                     data-whitespace="nowrap"
-                                                    data-type="text" data-responsive_offset="on"
+
+                                                    data-type="text"
+                                                    data-responsive_offset="on"
+
                                                     data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                                     data-textAlign="['inherit','inherit','inherit','inherit']"
                                                     data-paddingtop="[0,0,0,0]"
                                                     data-paddingright="[0,0,0,0]"
                                                     data-paddingbottom="[0,0,0,0]"
                                                     data-paddingleft="[0,0,0,0]"
+
                                                     style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                </h2>
+                                                    SIDE </h2>
+
                                                 <!-- LAYER NR. 3 -->
                                                 <h2 class="tp-caption   tp-resizeme"
                                                     id="slide-1-layer-5"
@@ -72,17 +90,23 @@
                                                     data-hoffset="['857','493','270','152']"
                                                     data-y="['top','top','top','top']"
                                                     data-voffset="['473','608','516','612']"
-                                                    data-width="none" data-height="none"
-                                                    data-whitespace="nowrap" data-type="text"
+                                                    data-width="none"
+                                                    data-height="none"
+                                                    data-whitespace="nowrap"
+
+                                                    data-type="text"
                                                     data-responsive_offset="on"
+
                                                     data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                                     data-textAlign="['inherit','inherit','inherit','inherit']"
                                                     data-paddingtop="[0,0,0,0]"
                                                     data-paddingright="[0,0,0,0]"
                                                     data-paddingbottom="[0,0,0,0]"
                                                     data-paddingleft="[0,0,0,0]"
+
                                                     style="z-index: 7; white-space: nowrap; font-size: 30px; line-height: 30px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                    <?= $sliders[0]->description ?> </h2>
+                                                    TAKE THIS WAY </h2>
+
                                                 <!-- LAYER NR. 4 -->
                                                 <div class="tp-caption   tp-resizeme"
                                                      id="slide-1-layer-7"
@@ -90,37 +114,41 @@
                                                      data-hoffset="['710','370','147','12']"
                                                      data-y="['top','top','top','top']"
                                                      data-voffset="['107','249','170','198']"
-                                                     data-width="none" data-height="none"
+                                                     data-width="none"
+                                                     data-height="none"
                                                      data-whitespace="nowrap"
-                                                     data-type="image" data-responsive_offset="on"
+
+                                                     data-type="image"
+                                                     data-responsive_offset="on"
+
                                                      data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                                      data-textAlign="['inherit','inherit','inherit','inherit']"
                                                      data-paddingtop="[0,0,0,0]"
                                                      data-paddingright="[0,0,0,0]"
                                                      data-paddingbottom="[0,0,0,0]"
-                                                     data-paddingleft="[0,0,0,0]" style="z-index: 8;">
-                                                    <img src="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[0]->image2) }}"
-                                                         alt=""
-                                                         data-ww="['528px','528px','528px','439px']"
-                                                         data-hh="['309px','309px','309px','257px']"
-                                                         width="528" height="309" data-no-retina>
-                                                </div>
+                                                     data-paddingleft="[0,0,0,0]"
+
+                                                     style="z-index: 8;"><img
+                                                            src="{{ asset('images/slider/deb9142f73b41ae680dda97df34b948c.png') }}"
+                                                            alt=""
+                                                            data-ww="['528px','528px','528px','439px']"
+                                                            data-hh="['309px','309px','309px','257px']"
+                                                            width="528" height="309" data-no-retina></div>
                                             </li>
                                             <!-- SLIDE  -->
                                             <li data-index="rs-2" data-transition="fade"
                                                 data-slotamount="default" data-hideafterloop="0"
                                                 data-hideslideonmobile="off" data-easein="default"
                                                 data-easeout="default" data-masterspeed="300"
-                                                data-thumb="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[2]->image1) }}"
+                                                data-thumb="{{ asset('images/slider/3679cc153091e8290fb13d57547c86ca.jpg') }}"
                                                 data-rotate="0" data-saveperformance="off"
                                                 data-title="Slide" data-param1="" data-param2=""
                                                 data-param3="" data-param4="" data-param5=""
                                                 data-param6="" data-param7="" data-param8=""
                                                 data-param9="" data-param10="" data-description="">
                                                 <!-- MAIN IMAGE -->
-                                                <img src="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[2]->image1) }}"
-                                                     alt=""
-                                                     title="slide-2" width="1920" height="603"
+                                                <img src="{{ asset('images/slider/3679cc153091e8290fb13d57547c86ca.jpg') }}"
+                                                     alt="" title="slide-2" width="1920" height="603"
                                                      data-bgposition="40% 0%" data-bgfit="cover"
                                                      data-bgrepeat="no-repeat" class="rev-slidebg"
                                                      data-no-retina>
@@ -148,7 +176,7 @@
                                                     data-paddingleft="[0,0,0,0]"
 
                                                     style="z-index: 5; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                    <?= $sliders[2]->title ?> </h2>
+                                                    YOU ARE </h2>
 
                                                 <!-- LAYER NR. 6 -->
                                                 <h2 class="tp-caption   tp-resizeme"
@@ -172,7 +200,7 @@
                                                     data-paddingleft="[0,0,0,0]"
 
                                                     style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                </h2>
+                                                    YOUR ONLY </h2>
 
                                                 <!-- LAYER NR. 7 -->
                                                 <div class="tp-caption   tp-resizeme"
@@ -196,12 +224,11 @@
                                                      data-paddingleft="[0,0,0,0]"
 
                                                      style="z-index: 7;"><img
-                                                            src="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[2]->image2) }}"
+                                                            src="{{ asset('images/slider/4e3dc89688efdc260bdb949c6ce47aec.png') }}"
                                                             alt=""
                                                             data-ww="['529px','529px','529px','445px']"
                                                             data-hh="['296px','296px','296px','249px']"
-                                                            width="529" height="296" data-no-retina>
-                                                </div>
+                                                            width="529" height="296" data-no-retina></div>
 
                                                 <!-- LAYER NR. 8 -->
                                                 <h2 class="tp-caption   tp-resizeme"
@@ -225,23 +252,22 @@
                                                     data-paddingleft="[0,0,0,0]"
 
                                                     style="z-index: 8; white-space: nowrap; font-size: 22px; line-height: 22px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                    <?= $sliders[2]->description ?> </h2>
+                                                    THE REVOLUTION BEGINS WITH JOGGING </h2>
                                             </li>
                                             <!-- SLIDE  -->
                                             <li data-index="rs-3" data-transition="fade"
                                                 data-slotamount="default" data-hideafterloop="0"
                                                 data-hideslideonmobile="off" data-easein="default"
                                                 data-easeout="default" data-masterspeed="300"
-                                                data-thumb="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[1]->image1) }}"
+                                                data-thumb="{{ asset('images/slider/4ee5c366bc1f593023a695f80b315c75.jpg') }}"
                                                 data-rotate="0" data-saveperformance="off"
                                                 data-title="Slide" data-param1="" data-param2=""
                                                 data-param3="" data-param4="" data-param5=""
                                                 data-param6="" data-param7="" data-param8=""
                                                 data-param9="" data-param10="" data-description="">
                                                 <!-- MAIN IMAGE -->
-                                                <img src="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[1]->image1) }}"
-                                                     alt=""
-                                                     title="slide-3" width="1920" height="603"
+                                                <img src="{{ asset('images/slider/4ee5c366bc1f593023a695f80b315c75.jpg') }}"
+                                                     alt="" title="slide-3" width="1920" height="603"
                                                      data-bgposition="65% 0%" data-bgfit="cover"
                                                      data-bgrepeat="no-repeat" class="rev-slidebg"
                                                      data-no-retina>
@@ -271,8 +297,8 @@
                                                     data-paddingleft="[0,0,0,0]"
 
                                                     style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 70px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                    <?= $sliders[1]->title ?>
-                                                </h2>
+                                                    RUN FAST, RUN SLOW<br>
+                                                    RUN FAR, RUN CLOSE </h2>
 
                                                 <!-- LAYER NR. 10 -->
                                                 <h2 class="tp-caption   tp-resizeme"
@@ -296,7 +322,7 @@
                                                     data-paddingleft="[0,0,0,0]"
 
                                                     style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-style:italic;">
-                                                    <?= $sliders[1]->description ?> </h2>
+                                                    THE REVOLUTION BEGINS WITH JOGGING </h2>
 
                                                 <!-- LAYER NR. 11 -->
                                                 <div class="tp-caption   tp-resizeme"
@@ -320,12 +346,11 @@
                                                      data-paddingleft="[0,0,0,0]"
 
                                                      style="z-index: 7;"><img
-                                                            src="{{ asset('http://storeback.forma-eg.com/images/slider/'.$sliders[1]->image2) }}"
+                                                            src="{{ asset('images/slider/08b0ee16f2806165db76fa9040e657a6.png') }}"
                                                             alt=""
                                                             data-ww="['681px','681px','681px','437px']"
                                                             data-hh="['187px','187px','187px','120px']"
-                                                            width="681" height="187" data-no-retina>
-                                                </div>
+                                                            width="681" height="187" data-no-retina></div>
                                             </li>
                                         </ul>
                                         <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
@@ -441,21 +466,17 @@
                                                         }
                                                     });
                                                 }
-                                                ;
-                                                /* END OF revapi call */
+                                                ; /* END OF revapi call */
 
-                                            };
-                                            /* END OF ON LOAD FUNCTION */
-                                        }());
-                                        /* END OF WRAPPING FUNCTION */
+                                            }; /* END OF ON LOAD FUNCTION */
+                                        }()); /* END OF WRAPPING FUNCTION */
                                     </script>
                                     <script>
                                         var htmlDivCss = unescape("%23rev_slider_1_1%20.uranus.tparrows%20%7B%0A%20%20width%3A50px%3B%0A%20%20height%3A50px%3B%0A%20%20background%3Argba%28255%2C255%2C255%2C0%29%3B%0A%20%7D%0A%20%23rev_slider_1_1%20.uranus.tparrows%3Abefore%20%7B%0A%20width%3A50px%3B%0A%20height%3A50px%3B%0A%20line-height%3A50px%3B%0A%20font-size%3A40px%3B%0A%20transition%3Aall%200.3s%3B%0A-webkit-transition%3Aall%200.3s%3B%0A%20%7D%0A%20%0A%20%20%23rev_slider_1_1%20.uranus.tparrows%3Ahover%3Abefore%20%7B%0A%20%20%20%20opacity%3A0.75%3B%0A%20%20%7D%0A");
                                         var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
                                         if (htmlDiv) {
                                             htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                                        }
-                                        else {
+                                        } else {
                                             var htmlDiv = document.createElement('div');
                                             htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
                                             document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);

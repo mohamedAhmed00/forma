@@ -8,7 +8,7 @@
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): util.js
- * Licensed under MIT (http://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -31,7 +31,7 @@ var Util = function ($) {
     transition: 'transitionend'
   };
 
-  // shoutout AngusCroll (http://goo.gl/pxwQGp)
+  // shoutout AngusCroll (https://goo.gl/pxwQGp)
   function toType(obj) {
     return {}.toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase();
   }
@@ -166,7 +166,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-alpha.6): scrollspy.js
- * Licensed under MIT (http://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * --------------------------------------------------------------------------
  */
 

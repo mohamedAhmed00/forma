@@ -166,8 +166,8 @@
                                 </div>
                                 <div class="svg-graph-1__subtitle">Your BMI</div>
                             </div>
-                            <svg id="graph-1" data-percent="50" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 358.8 281"
+                            <svg id="graph-1" data-percent="50" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                 xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 358.8 281"
                                  style="enable-background:new 0 0 358.8 281" xml:space="preserve">
                             <style type="text/css">
                                 .graph-1-st0 {
@@ -267,8 +267,8 @@
                                 <div class="svg-graph-3__age">46-64</div>
                                 <div class="svg-graph-3__age">65+</div>
                             </div>
-                            <svg id="graph-3" data-age="" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 401.9 193.2"
+                            <svg id="graph-3" data-age="" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                 xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 401.9 193.2"
                                  style="enable-background:new 0 0 401.9 193.2" xml:space="preserve">
                             <script>document.getElementById('graph-3').setAttribute('data-age', getAnswersData('metabolic_age'));</script>
                                 <style type="text/css">.graph-3-man {
@@ -352,7 +352,7 @@
                                 <div class="svg-graph-2__max">5000 Cal</div>
                             </div>
                             <svg id="graph-2" data-from="10" data-to="50" version="1.1"
-                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                 xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
                                  y="0px" viewbox="0 0 467.2 118.1" style="enable-background:new 0 0 467.2 118.1"
                                  xml:space="preserve">
                             <style type="text/css">
@@ -439,8 +439,8 @@
                                 <script>document.write(toDecimal(getAnswersData('recommended_water')));</script>
                                 L
                             </div>
-                            <svg id="graph-4" data-percent="50" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 157 215"
+                            <svg id="graph-4" data-percent="50" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                 xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 157 215"
                                  style="enable-background:new 0 0 157 215" xml:space="preserve">
                             <style type="text/css">
                                 .dash-line {
@@ -514,7 +514,7 @@
                                 <div class="svg-graph-5__subtitle">Weight Range</div>
                             </div>
                             <svg id="graph-5" data-from="0" data-to="100" version="1.1"
-                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                 xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
                                  y="0px" viewbox="0 0 321.5 241" style="enable-background:new 0 0 321.5 241"
                                  xml:space="preserve">
                             <style type="text/css">
